@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazingTrails.Client
+build_property.RootNamespace = BlazingTrails.Client
+build_property.ProjectDir = /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/HomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9Ib21lUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/SearchPage.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9TZWFyY2hQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/TrailCard.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9UcmFpbENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Layout/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTGF5b3V0L0hlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/SearchFilter.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9TZWFyY2hGaWx0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qe1rean4hg
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/TrailDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9UcmFpbERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ksyyl2s2l2
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/TrailSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9UcmFpbFNlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6ayv425e1m

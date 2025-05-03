@@ -1,0 +1,67 @@
+@page "/"
+
+
+<PageTitle>Blazing Trails</PageTitle>
+
+@if (_trails == null)
+{
+    <p>Loading trails...</p>
+}
+else
+{
+    <TrailDetails Trail ="_selectedTrail"/>
+    <TrailSearch />
+    <div class="grid">
+        @foreach (var trail in _trails)
+        {
+            <TrailCard Trail="trail" OnSelected="HandleTrailSelected" />
+        }
+    </div>
+}
+
+
+
+@* 1. HomePage — родительский компонент (например, @page "/") *@
+@* Загружает список маршрутов (_trails). *@
+@* *@
+@* Отображает их с помощью компонента <TrailCard />. *@
+@* *@
+@* Хранит состояние выбранного маршрута в переменной _selectedTrail. *@
+@* *@
+@* Передаёт выбранный маршрут в TrailDetails через параметр Trail. *@
+@* *@
+@* 💬 2. TrailCard — дочерний компонент (карточка маршрута) *@
+@* Отображает информацию о маршруте. *@
+@* *@
+@* При клике на кнопку "View" вызывает OnSelected.InvokeAsync(Trail). *@
+@* *@
+@* OnSelected передаётся из HomePage. *@
+@* *@
+@* 🔁 3. Обработка клика в HomePage *@
+@* Метод HandleTrailSelected(Trail trail) сохраняет выбранный маршрут: *@
+@* *@
+@* csharp *@
+@* Копировать *@
+@* Редактировать *@
+@* _selectedTrail = trail; *@
+@* Это значение передаётся в <TrailDetails Trail="_selectedTrail" />. *@
+@* *@
+@* 📦 4. TrailDetails — компонент деталей маршрута *@
+@* Получает Trail как [Parameter]. *@
+@* *@
+@* Если маршрут не null, открывает панель (_isOpen = true) и отображает подробности. *@
+@* *@
+@* При клике на "Close" вызывает Close() и скрывает панель (_isOpen = false, Trail = null). *@
+@* *@
+@* 🔗 Итого: цепочка взаимодействия *@
+@* HomePage передаёт маршрут в TrailCard. *@
+@* *@
+@* TrailCard сигнализирует о выборе маршрута через OnSelected. *@
+@* *@
+@* HomePage сохраняет выбранный маршрут. *@
+@* *@
+@* TrailDetails отображает детали выбранного маршрута. *@
+@* *@
+@* Пользователь может закрыть TrailDetails, и компонент сбросит состояние. *@
+
+
