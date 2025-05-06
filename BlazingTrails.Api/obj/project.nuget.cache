@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "dgSpecHash": "P5laADy9jJQ=",
+  "success": true,
+  "projectFilePath": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/BlazingTrails.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/Masha/.nuget/packages/blazored.fluentvalidation/2.2.0/blazored.fluentvalidation.2.2.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/buildbundlerminifier2022/2.9.11/buildbundlerminifier2022.2.9.11.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.authorization/9.0.0/microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components/9.0.0/microsoft.aspnetcore.components.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.analyzers/9.0.0/microsoft.aspnetcore.components.analyzers.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.forms/9.0.0/microsoft.aspnetcore.components.forms.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.web/9.0.0/microsoft.aspnetcore.components.web.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.webassembly/9.0.0/microsoft.aspnetcore.components.webassembly.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/9.0.0-preview.3.24172.13/microsoft.aspnetcore.components.webassembly.server.9.0.0-preview.3.24172.13.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/9.0.0-preview.3.24172.13/microsoft.aspnetcore.diagnostics.entityframeworkcore.9.0.0-preview.3.24172.13.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.metadata/9.0.0/microsoft.aspnetcore.metadata.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.codeanalysis.common/4.8.0/microsoft.codeanalysis.common.4.8.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.codeanalysis.csharp/4.8.0/microsoft.codeanalysis.csharp.4.8.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.8.0/microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.8.0/microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.data.sqlite.core/9.0.0-preview.4.24267.1/microsoft.data.sqlite.core.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.abstractions.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.analyzers.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.design/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.design.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.relational.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.sqlite.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.sqlite.core.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.0-preview.4.24267.1/microsoft.entityframeworkcore.tools.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.0-preview.4.24266.19/microsoft.extensions.caching.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.caching.memory/9.0.0-preview.4.24266.19/microsoft.extensions.caching.memory.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.binder/9.0.0/microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.fileextensions/9.0.0/microsoft.extensions.configuration.fileextensions.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.json/9.0.0/microsoft.extensions.configuration.json.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.dependencymodel/9.0.0-preview.4.24266.19/microsoft.extensions.dependencymodel.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.0/microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.0/microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.jsinterop/9.0.0/microsoft.jsinterop.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.jsinterop.webassembly/9.0.0/microsoft.jsinterop.webassembly.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/mono.texttemplating/3.0.0-preview-0052-g5d0f76c785/mono.texttemplating.3.0.0-preview-0052-g5d0f76c785.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/nuglify/1.21.9/nuglify.1.21.9.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.7/sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/sqlitepclraw.core/2.1.7/sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.7/sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.7/sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.composition.attributedmodel/7.0.0/system.composition.attributedmodel.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.composition.convention/7.0.0/system.composition.convention.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.text.encodings.web/9.0.0-preview.4.24266.19/system.text.encodings.web.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.text.json/9.0.0-preview.4.24266.19/system.text.json.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BlazingTrails.Api depends on Microsoft.AspNetCore.Components.WebAssembly.Server (>= 9.0.0-preview.3.24172.9) but Microsoft.AspNetCore.Components.WebAssembly.Server 9.0.0-preview.3.24172.9 was not found. Microsoft.AspNetCore.Components.WebAssembly.Server 9.0.0-preview.3.24172.13 was resolved instead.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BlazingTrails.Api depends on Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (>= 9.0.0-preview.3.24172.9) but Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 9.0.0-preview.3.24172.9 was not found. Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 9.0.0-preview.3.24172.13 was resolved instead.",
+      "libraryId": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BlazingTrails.Api depends on Microsoft.EntityFrameworkCore.Sqlite (>= 9.0.0-preview.3.24172.9) but Microsoft.EntityFrameworkCore.Sqlite 9.0.0-preview.3.24172.9 was not found. Microsoft.EntityFrameworkCore.Sqlite 9.0.0-preview.4.24267.1 was resolved instead.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BlazingTrails.Api depends on Microsoft.EntityFrameworkCore.Tools (>= 9.0.0-preview.3.24172.9) but Microsoft.EntityFrameworkCore.Tools 9.0.0-preview.3.24172.9 was not found. Microsoft.EntityFrameworkCore.Tools 9.0.0-preview.4.24267.1 was resolved instead.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FKDGxOLNUfhpCvHmxRkJqHBylgRjHarqhxFY0VZW1fc=",
+  "Hash": "GbCv3gYHFEcufSrFW2DCON8GjVHkp8Bg3l3BQ41xF1A=",
   "Source": "BlazingTrails.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "wnlj0kzpwd",
-      "Integrity": "lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0=",
+      "Fingerprint": "rqosxv4zap",
+      "Integrity": "QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/BlazingTrails.Client.pdb"
@@ -52,11 +52,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "t8onaocgyt",
-      "Integrity": "fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM=",
+      "Fingerprint": "m64ibw1cfm",
+      "Integrity": "rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/webcil/BlazingTrails.Client.wasm"
+    },
+    {
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.pdb",
+      "SourceId": "BlazingTrails.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingTrails.Shared#[.{fingerprint}]!.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "symbol",
+      "Fingerprint": "zpm5is8nxn",
+      "Integrity": "uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/bin/Debug/net9.0/BlazingTrails.Shared.pdb"
+    },
+    {
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.wasm",
+      "SourceId": "BlazingTrails.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingTrails.Shared#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "039rrhdzly",
+      "Integrity": "RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/webcil/BlazingTrails.Shared.wasm"
     },
     {
       "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
@@ -73,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "ykui40saig",
-      "Integrity": "rtCVNzeo16f/vu7aqe/BlYHC52eqOS5tjEzfYgM7BLQ=",
+      "Fingerprint": "y4p61c2qa0",
+      "Integrity": "wrWoQw06PREiKw+hnerdqDR28c5pYxHEDs3SmWZNALw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -4973,6 +5015,27 @@
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/System.Resources.ResourceManager.wasm"
     },
     {
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/6dbk9gfke9-zpm5is8nxn.gz",
+      "SourceId": "BlazingTrails.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingTrails.Shared#[.{fingerprint=zpm5is8nxn}]!.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1loztteheb",
+      "Integrity": "y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.pdb"
+    },
+    {
       "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/6hsqpkxp91-zgykqiy9oc.gz",
       "SourceId": "BlazingTrails.Client",
       "SourceType": "Computed",
@@ -5603,12 +5666,12 @@
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/System.IO.FileSystem.Watcher.wasm"
     },
     {
-      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-wnlj0kzpwd.gz",
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-rqosxv4zap.gz",
       "SourceId": "BlazingTrails.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazingTrails.Client#[.{fingerprint=wnlj0kzpwd}]!.pdb.gz",
+      "RelativePath": "_framework/BlazingTrails.Client#[.{fingerprint=rqosxv4zap}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5617,8 +5680,8 @@
       "RelatedAsset": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "26a2nb9584",
-      "Integrity": "+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck=",
+      "Fingerprint": "xyymv9e2kx",
+      "Integrity": "dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.pdb"
@@ -6065,7 +6128,7 @@
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/scopedcss/projectbundle/BlazingTrails.Client.bundle.scp.css"
     },
     {
-      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/fgk0e2inp0-ykui40saig.gz",
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/fgk0e2inp0-y4p61c2qa0.gz",
       "SourceId": "BlazingTrails.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/",
@@ -6079,8 +6142,8 @@
       "RelatedAsset": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pa8p1kce61",
-      "Integrity": "QafW0suGd+t8IxBZT0FLYU6MYZv24B0KKLrZ+A9ee8o=",
+      "Fingerprint": "akn1ymf0po",
+      "Integrity": "dmhSoTDZ/k7q8PiDZQyYtvHEX6uczUP+NrbY8ZTxSTg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -7136,12 +7199,12 @@
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/System.IO.Compression.wasm"
     },
     {
-      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-t8onaocgyt.gz",
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-m64ibw1cfm.gz",
       "SourceId": "BlazingTrails.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazingTrails.Client#[.{fingerprint=t8onaocgyt}]!.wasm.gz",
+      "RelativePath": "_framework/BlazingTrails.Client#[.{fingerprint=m64ibw1cfm}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7150,8 +7213,8 @@
       "RelatedAsset": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6q3td2rvm0",
-      "Integrity": "Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8=",
+      "Fingerprint": "sj3emrctr1",
+      "Integrity": "iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.wasm"
@@ -7974,6 +8037,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/System.ComponentModel.Annotations.wasm"
+    },
+    {
+      "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/soem2m45zg-039rrhdzly.gz",
+      "SourceId": "BlazingTrails.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingTrails.Shared#[.{fingerprint=039rrhdzly}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8s6d3u7pq7",
+      "Integrity": "aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.wasm"
     },
     {
       "Identity": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/srh67hix3r-usox28ogrg.gz",
@@ -9511,144 +9595,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "_framework/BlazingTrails.Client.pdb",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32328"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazingTrails.Client.pdb",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-wnlj0kzpwd.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000041497220"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24097"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazingTrails.Client.pdb.gz",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-wnlj0kzpwd.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24097"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazingTrails.Client.t8onaocgyt.wasm",
+      "Route": "_framework/BlazingTrails.Client.m64ibw1cfm.wasm",
       "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9658,7 +9605,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29461"
+          "Value": "29973"
         },
         {
           "Name": "Content-Type",
@@ -9666,11 +9613,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM=\""
+          "Value": "\"rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:25 GMT"
+          "Value": "Tue, 06 May 2025 06:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9680,7 +9627,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t8onaocgyt"
+          "Value": "m64ibw1cfm"
         },
         {
           "Name": "label",
@@ -9688,18 +9635,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM="
+          "Value": "sha256-rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY="
         }
       ]
     },
     {
-      "Route": "_framework/BlazingTrails.Client.t8onaocgyt.wasm",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-t8onaocgyt.gz",
+      "Route": "_framework/BlazingTrails.Client.m64ibw1cfm.wasm",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-m64ibw1cfm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080398778"
+          "Quality": "0.000079782990"
         }
       ],
       "ResponseHeaders": [
@@ -9709,15 +9656,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12437"
+          "Value": "12533"
         },
         {
           "Name": "ETag",
-          "Value": "\"Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8=\""
+          "Value": "\"iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9737,13 +9684,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM=\""
+          "Value": "W/\"rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t8onaocgyt"
+          "Value": "m64ibw1cfm"
         },
         {
           "Name": "label",
@@ -9751,13 +9698,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM="
+          "Value": "sha256-rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY="
         }
       ]
     },
     {
-      "Route": "_framework/BlazingTrails.Client.t8onaocgyt.wasm.gz",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-t8onaocgyt.gz",
+      "Route": "_framework/BlazingTrails.Client.m64ibw1cfm.wasm.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-m64ibw1cfm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9766,7 +9713,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12437"
+          "Value": "12533"
         },
         {
           "Name": "Content-Type",
@@ -9774,11 +9721,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8=\""
+          "Value": "\"iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9796,7 +9743,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t8onaocgyt"
+          "Value": "m64ibw1cfm"
         },
         {
           "Name": "label",
@@ -9804,7 +9751,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8="
+          "Value": "sha256-iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Client.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Client.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-rqosxv4zap.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041201434"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24270"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Client.pdb.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-rqosxv4zap.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Client.rqosxv4zap.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqosxv4zap"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazingTrails.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Client.rqosxv4zap.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-rqosxv4zap.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041201434"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24270"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqosxv4zap"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazingTrails.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwmpxHTCVg9OdrHw8O7L3jmEUAm9mGBjqBwXhdbbHnE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Client.rqosxv4zap.pdb.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-rqosxv4zap.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqosxv4zap"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazingTrails.Client.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dwIukZ1z4/fypqZnbloGR6FOLZXNrrX2qBziGKxVhnA="
         }
       ]
     },
@@ -9819,7 +10064,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29461"
+          "Value": "29973"
         },
         {
           "Name": "Content-Type",
@@ -9827,11 +10072,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM=\""
+          "Value": "\"rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:25 GMT"
+          "Value": "Tue, 06 May 2025 06:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9841,18 +10086,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM="
+          "Value": "sha256-rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY="
         }
       ]
     },
     {
       "Route": "_framework/BlazingTrails.Client.wasm",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-t8onaocgyt.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-m64ibw1cfm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080398778"
+          "Quality": "0.000079782990"
         }
       ],
       "ResponseHeaders": [
@@ -9862,15 +10107,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12437"
+          "Value": "12533"
         },
         {
           "Name": "ETag",
-          "Value": "\"Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8=\""
+          "Value": "\"iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9890,19 +10135,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM=\""
+          "Value": "W/\"rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fURf+g1fYzpsZMtxrCKyNT1iYwj3D1A6UU80OZDFQlM="
+          "Value": "sha256-rmDcHAshfLRo0nKFGFSBwvxM0ghI2Pf9Nb+8/RNNEnY="
         }
       ]
     },
     {
       "Route": "_framework/BlazingTrails.Client.wasm.gz",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-t8onaocgyt.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/n0o6aanu2j-m64ibw1cfm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9911,7 +10156,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12437"
+          "Value": "12533"
         },
         {
           "Name": "Content-Type",
@@ -9919,11 +10164,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8=\""
+          "Value": "\"iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9941,13 +10186,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Hp39rwHkqm85s0u9SLqD1sqqHFq3VzP2gY/a7PY/ff8="
+          "Value": "sha256-iNSRwcitibX2c4xa8EqNht+Gh5jYjX12UtpykBGZ0Ak="
         }
       ]
     },
     {
-      "Route": "_framework/BlazingTrails.Client.wnlj0kzpwd.pdb",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Client.pdb",
+      "Route": "_framework/BlazingTrails.Shared.039rrhdzly.wasm",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9956,19 +10201,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32328"
+          "Value": "3861"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0=\""
+          "Value": "\"RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:24 GMT"
+          "Value": "Tue, 06 May 2025 06:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9978,26 +10223,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wnlj0kzpwd"
+          "Value": "039rrhdzly"
         },
         {
           "Name": "label",
-          "Value": "_framework/BlazingTrails.Client.pdb"
+          "Value": "_framework/BlazingTrails.Shared.wasm"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0="
+          "Value": "sha256-RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA="
         }
       ]
     },
     {
-      "Route": "_framework/BlazingTrails.Client.wnlj0kzpwd.pdb",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-wnlj0kzpwd.gz",
+      "Route": "_framework/BlazingTrails.Shared.039rrhdzly.wasm",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/soem2m45zg-039rrhdzly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000041497220"
+          "Quality": "0.000657462196"
         }
       ],
       "ResponseHeaders": [
@@ -10007,15 +10252,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24097"
+          "Value": "1520"
         },
         {
           "Name": "ETag",
-          "Value": "\"+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck=\""
+          "Value": "\"aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10031,31 +10276,31 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0=\""
+          "Value": "W/\"RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wnlj0kzpwd"
+          "Value": "039rrhdzly"
         },
         {
           "Name": "label",
-          "Value": "_framework/BlazingTrails.Client.pdb"
+          "Value": "_framework/BlazingTrails.Shared.wasm"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lMtVFKNKJbDpeyTncxGbpGtjnn0OoTbtqbaqAn+Eha0="
+          "Value": "sha256-RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA="
         }
       ]
     },
     {
-      "Route": "_framework/BlazingTrails.Client.wnlj0kzpwd.pdb.gz",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/bgv23wo2xp-wnlj0kzpwd.gz",
+      "Route": "_framework/BlazingTrails.Shared.039rrhdzly.wasm.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/soem2m45zg-039rrhdzly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10064,19 +10309,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24097"
+          "Value": "1520"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck=\""
+          "Value": "\"aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10094,15 +10339,450 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wnlj0kzpwd"
+          "Value": "039rrhdzly"
         },
         {
           "Name": "label",
-          "Value": "_framework/BlazingTrails.Client.pdb.gz"
+          "Value": "_framework/BlazingTrails.Shared.wasm.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+vI6fUn6vE91lTWVta0lZq6prRZ/72qA4HaDfQtsuck="
+          "Value": "sha256-aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/6dbk9gfke9-zpm5is8nxn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000159235669"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.pdb.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/6dbk9gfke9-zpm5is8nxn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.wasm",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.wasm",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/soem2m45zg-039rrhdzly.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000657462196"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RCpw8opZ1lXiYLGtTmK/kAsSebp/JOQA2PJDv7dMYDA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.wasm.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/soem2m45zg-039rrhdzly.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNHWpapxTnGEk3U4KSoxJ+1VkHB2TGsuQLLV9aqbOn8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.zpm5is8nxn.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/bin/Debug/net9.0/wwwroot/_framework/BlazingTrails.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpm5is8nxn"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazingTrails.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.zpm5is8nxn.pdb",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/6dbk9gfke9-zpm5is8nxn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000159235669"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpm5is8nxn"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazingTrails.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXtnt2XD2Kj/ESyfrvCMbcn12LxYNaMWYD5dbMpV0bw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazingTrails.Shared.zpm5is8nxn.pdb.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/6dbk9gfke9-zpm5is8nxn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpm5is8nxn"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazingTrails.Shared.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6e7FVGHbM3SmH+R761aDA5auJy8v6KhoZna4ajp/zA="
         }
       ]
     },
@@ -10117,7 +10797,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39118"
+          "Value": "39467"
         },
         {
           "Name": "Content-Type",
@@ -10125,11 +10805,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rtCVNzeo16f/vu7aqe/BlYHC52eqOS5tjEzfYgM7BLQ=\""
+          "Value": "\"wrWoQw06PREiKw+hnerdqDR28c5pYxHEDs3SmWZNALw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:50:26 GMT"
+          "Value": "Tue, 06 May 2025 06:41:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10139,18 +10819,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rtCVNzeo16f/vu7aqe/BlYHC52eqOS5tjEzfYgM7BLQ="
+          "Value": "sha256-wrWoQw06PREiKw+hnerdqDR28c5pYxHEDs3SmWZNALw="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/fgk0e2inp0-ykui40saig.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/fgk0e2inp0-y4p61c2qa0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080431111"
+          "Quality": "0.000079624174"
         }
       ],
       "ResponseHeaders": [
@@ -10160,15 +10840,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12432"
+          "Value": "12558"
         },
         {
           "Name": "ETag",
-          "Value": "\"QafW0suGd+t8IxBZT0FLYU6MYZv24B0KKLrZ+A9ee8o=\""
+          "Value": "\"dmhSoTDZ/k7q8PiDZQyYtvHEX6uczUP+NrbY8ZTxSTg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:17:10 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10188,19 +10868,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rtCVNzeo16f/vu7aqe/BlYHC52eqOS5tjEzfYgM7BLQ=\""
+          "Value": "W/\"wrWoQw06PREiKw+hnerdqDR28c5pYxHEDs3SmWZNALw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rtCVNzeo16f/vu7aqe/BlYHC52eqOS5tjEzfYgM7BLQ="
+          "Value": "sha256-wrWoQw06PREiKw+hnerdqDR28c5pYxHEDs3SmWZNALw="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/fgk0e2inp0-ykui40saig.gz",
+      "AssetFile": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/obj/Debug/net9.0/compressed/fgk0e2inp0-y4p61c2qa0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10209,7 +10889,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12432"
+          "Value": "12558"
         },
         {
           "Name": "Content-Type",
@@ -10217,11 +10897,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QafW0suGd+t8IxBZT0FLYU6MYZv24B0KKLrZ+A9ee8o=\""
+          "Value": "\"dmhSoTDZ/k7q8PiDZQyYtvHEX6uczUP+NrbY8ZTxSTg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 13:17:10 GMT"
+          "Value": "Tue, 06 May 2025 06:40:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10239,7 +10919,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QafW0suGd+t8IxBZT0FLYU6MYZv24B0KKLrZ+A9ee8o="
+          "Value": "sha256-dmhSoTDZ/k7q8PiDZQyYtvHEX6uczUP+NrbY8ZTxSTg="
         }
       ]
     },

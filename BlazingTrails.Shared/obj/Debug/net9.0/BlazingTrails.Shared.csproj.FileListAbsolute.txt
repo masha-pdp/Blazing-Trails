@@ -1,0 +1,12 @@
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/bin/Debug/net9.0/BlazingTrails.Shared.deps.json
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/bin/Debug/net9.0/BlazingTrails.Shared.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/bin/Debug/net9.0/BlazingTrails.Shared.pdb
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.AssemblyInfoInputs.cache
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.AssemblyInfo.cs
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.csproj.CoreCompileInputs.cache
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.sourcelink.json
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/refint/BlazingTrails.Shared.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.pdb
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/ref/BlazingTrails.Shared.dll

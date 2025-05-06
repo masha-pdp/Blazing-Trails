@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingTrails.Client", "BlazingTrails.Client\BlazingTrails.Client.csproj", "{B8AB7E0A-D6A0-41B5-A8FC-CE58D07EBDAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingTrails.Api", "BlazingTrails.Api\BlazingTrails.Api.csproj", "{632E712F-25F1-4C03-8DAC-55830AB65557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingTrails.Shared", "BlazingTrails.Shared\BlazingTrails.Shared.csproj", "{9FBFCB01-F2C7-4DDE-BE92-42FDA0A548BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{B8AB7E0A-D6A0-41B5-A8FC-CE58D07EBDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8AB7E0A-D6A0-41B5-A8FC-CE58D07EBDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8AB7E0A-D6A0-41B5-A8FC-CE58D07EBDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E712F-25F1-4C03-8DAC-55830AB65557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E712F-25F1-4C03-8DAC-55830AB65557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E712F-25F1-4C03-8DAC-55830AB65557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E712F-25F1-4C03-8DAC-55830AB65557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FBFCB01-F2C7-4DDE-BE92-42FDA0A548BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBFCB01-F2C7-4DDE-BE92-42FDA0A548BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBFCB01-F2C7-4DDE-BE92-42FDA0A548BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBFCB01-F2C7-4DDE-BE92-42FDA0A548BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

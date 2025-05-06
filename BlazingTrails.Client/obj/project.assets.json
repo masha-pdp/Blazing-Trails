@@ -468,6 +468,16 @@
             "related": ".xml"
           }
         }
+      },
+      "BlazingTrails.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BlazingTrails.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingTrails.Shared.dll": {}
+        }
       }
     },
     "net9.0/browser-wasm": {
@@ -936,6 +946,16 @@
           "lib/net5.0/NUglify.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BlazingTrails.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BlazingTrails.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingTrails.Shared.dll": {}
         }
       }
     }
@@ -1910,10 +1930,16 @@
         "nuglify.nuspec",
         "nuglify.png"
       ]
+    },
+    "BlazingTrails.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BlazingTrails.Shared/BlazingTrails.Shared.csproj",
+      "msbuildProject": "../BlazingTrails.Shared/BlazingTrails.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "BlazingTrails.Shared >= 1.0.0",
       "BuildBundlerMinifier2022 >= 2.9.11",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.0",
@@ -1945,7 +1971,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/BlazingTrails.Shared.csproj": {
+              "projectPath": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/BlazingTrails.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
