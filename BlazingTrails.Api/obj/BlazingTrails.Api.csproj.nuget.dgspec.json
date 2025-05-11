@@ -51,9 +51,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Ardalis.ApiEndpoints": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Blazored.FluentValidation": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
@@ -144,9 +156,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "BuildBundlerMinifier2022": {
+            "Blazored.FluentValidation": {
               "target": "Package",
-              "version": "[2.9.11, )"
+              "version": "[2.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -240,6 +260,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

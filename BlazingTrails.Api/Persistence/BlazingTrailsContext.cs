@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using BlazingTrails.Api.Persistence.Entities;
 
 public class BlazingTrailsContext : DbContext
 {

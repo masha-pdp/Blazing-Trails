@@ -51,8 +51,6 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.JSInterop.WebAssembly.dll
-/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Newtonsoft.Json.dll
-/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/NUglify.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.Client.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.Client.pdb
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Blazored.FluentValidation.dll
@@ -156,3 +154,9 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.Shared.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.Shared.pdb
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Ardalis.ApiEndpoints.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/MediatR.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/MediatR.Contracts.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

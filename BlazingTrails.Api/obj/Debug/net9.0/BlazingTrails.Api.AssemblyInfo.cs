@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazingTrails.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9307c64a101b030b1a2d733586440e6e1d1c932")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2419dfdf9803f3f2ffff4e8aae3edf2805cd5a11")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazingTrails.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazingTrails.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
