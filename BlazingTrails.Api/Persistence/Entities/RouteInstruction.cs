@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-namespace BlazingTrails.Api.Persistence.Entities;
 
+namespace BlazingTrails.Api.Persistence.Entities;
 public class RouteInstruction
 {
     public int Id { get; set; }

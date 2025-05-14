@@ -1,32 +1,37 @@
 {
   "version": 2,
-  "dgSpecHash": "YSPGQXrJi4s=",
+  "dgSpecHash": "VjXhxyyiYis=",
   "success": true,
   "projectFilePath": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/BlazingTrails.Client.csproj",
   "expectedPackageFiles": [
+    "/Users/Masha/.nuget/packages/blazored.fluentvalidation/2.2.0/blazored.fluentvalidation.2.2.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/buildbundlerminifier2022/2.9.11/buildbundlerminifier2022.2.9.11.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.authorization/9.0.0/microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components/9.0.0/microsoft.aspnetcore.components.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.analyzers/9.0.0/microsoft.aspnetcore.components.analyzers.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.forms/9.0.0/microsoft.aspnetcore.components.forms.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.authorization/9.0.5/microsoft.aspnetcore.authorization.9.0.5.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components/9.0.5/microsoft.aspnetcore.components.9.0.5.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.analyzers/9.0.5/microsoft.aspnetcore.components.analyzers.9.0.5.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.forms/9.0.5/microsoft.aspnetcore.components.forms.9.0.5.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.web/9.0.0/microsoft.aspnetcore.components.web.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.webassembly/9.0.0/microsoft.aspnetcore.components.webassembly.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/9.0.0/microsoft.aspnetcore.components.webassembly.devserver.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.metadata/9.0.0/microsoft.aspnetcore.metadata.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.aspnetcore.metadata/9.0.5/microsoft.aspnetcore.metadata.9.0.5.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.binder/9.0.0/microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.fileextensions/9.0.0/microsoft.extensions.configuration.fileextensions.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.configuration.json/9.0.0/microsoft.extensions.configuration.json.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.5/microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.0/microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.0/microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
-    "/Users/Masha/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.5/microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.options/9.0.5/microsoft.extensions.options.9.0.5.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/microsoft.extensions.primitives/9.0.5/microsoft.extensions.primitives.9.0.5.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.jsinterop/9.0.0/microsoft.jsinterop.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.jsinterop.webassembly/9.0.0/microsoft.jsinterop.webassembly.9.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.net.illink.tasks/9.0.0/microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
@@ -35,5 +40,17 @@
     "/Users/Masha/.nuget/packages/nuglify/1.21.9/nuglify.1.21.9.nupkg.sha512",
     "/Users/Masha/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/9.0.0/microsoft.netcore.app.runtime.mono.browser-wasm.9.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.5.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net9.0",
+        "net9.0/browser-wasm"
+      ]
+    }
+  ]
 }

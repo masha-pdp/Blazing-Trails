@@ -10,3 +10,4 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/refint/BlazingTrails.Shared.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.pdb
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/ref/BlazingTrails.Shared.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/obj/Debug/net9.0/BlazingTrails.Shared.csproj.AssemblyReference.cache

@@ -21,6 +21,7 @@
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/Masha/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/Users/Masha/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.0-preview.4.24267.1</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">/Users/Masha/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/9.0.0-preview.3.24172.13</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
+    <PkgBuildBundlerMinifier2022 Condition=" '$(PkgBuildBundlerMinifier2022)' == '' ">/Users/Masha/.nuget/packages/buildbundlerminifier2022/2.9.11</PkgBuildBundlerMinifier2022>
     <PkgArdalis_ApiEndpoints_CodeAnalyzers Condition=" '$(PkgArdalis_ApiEndpoints_CodeAnalyzers)' == '' ">/Users/Masha/.nuget/packages/ardalis.apiendpoints.codeanalyzers/4.0.0</PkgArdalis_ApiEndpoints_CodeAnalyzers>
   </PropertyGroup>
 </Project>

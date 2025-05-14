@@ -1,4 +1,6 @@
+using BlazingTrails.Api.Persistence;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using FluentValidation.AspNetCore;
 using System.Reflection;
 

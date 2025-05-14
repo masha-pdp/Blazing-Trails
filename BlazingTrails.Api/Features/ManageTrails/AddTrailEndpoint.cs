@@ -18,7 +18,7 @@ public class AddTrailEndpoint : EndpointBaseAsync.WithRequest<AddTrailRequest>.W
     [HttpPost(AddTrailRequest.RouteTemplate)]
     public override async Task<ActionResult<int>> HandleAsync(AddTrailRequest request, CancellationToken cancellationToken)
     {
-        var trail = new Trail
+        var trail = new BlazingTrails.Api.Persistence.Entities.Trail
         {
             Name = request.Trail.Name,
             Description = request.Trail.Description,
@@ -29,7 +29,7 @@ public class AddTrailEndpoint : EndpointBaseAsync.WithRequest<AddTrailRequest>.W
 
         await _database.Trails.AddAsync(trail, cancellationToken);
 
-        var routeInstructions = request.Trail.Route.Select(x => new BlazingTrails.Api.Persistence.Entities.RouteInstruction
+        var routeInstructions = request.Trail.Route.Select(x => new Persistence.Entities.RouteInstruction
         {
             Stage = x.Stage,
             Description = x.Description,

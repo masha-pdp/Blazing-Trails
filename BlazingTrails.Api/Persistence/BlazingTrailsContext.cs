@@ -1,5 +1,8 @@
-using Microsoft.EntityFrameworkCore;
 using BlazingTrails.Api.Persistence.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace BlazingTrails.Api.Persistence;
+
 
 public class BlazingTrailsContext : DbContext
 {

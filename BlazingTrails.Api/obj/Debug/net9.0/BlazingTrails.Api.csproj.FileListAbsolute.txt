@@ -160,3 +160,13 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/MediatR.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/MediatR.Contracts.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Authorization.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Components.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Metadata.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/NUglify.dll
