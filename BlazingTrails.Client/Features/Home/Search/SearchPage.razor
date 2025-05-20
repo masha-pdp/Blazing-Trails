@@ -1,11 +1,12 @@
 @page "/search/{SearchTerm}"
 @* @page "/search/{SearchTerm}/maxlength/{MaxLength:int}" *@
-@inject HttpClient Http;
+@* @inject HttpClient Http; *@
+@inject IMediator Mediator
 @inject NavigationManager NavManager;
 
 
 <PageTitle>Search Trails - Blazing Trails</PageTitle>
-<nav aria-label="">
+<nav aria-label=""->
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
             <a href="/">Home</a>
@@ -45,13 +46,28 @@ else
     {
         try
         {
-            var allTrails = await Http.GetFromJsonAsync<IEnumerable<Trail>>("trails/trail-data.json");
-            _searchResults = allTrails!.Where(t => t.Name
-                                                        .Contains(SearchTerm, StringComparison.CurrentCultureIgnoreCase) ||
-                                                        t.Location
-                                                        .Contains(SearchTerm, StringComparison.CurrentCultureIgnoreCase));
+            var response = await Mediator.Send(new GetTrailsRequest());
+            // var allTrails = await Http.GetFromJsonAsync<IEnumerable<Trail>>("trails/trail-data.json");
+            // _searchResults = allTrails!.Where(t => t.Name
+            //                                             .Contains(SearchTerm, StringComparison.CurrentCultureIgnoreCase) ||
+            //                                             t.Location
+            //                                             .Contains(SearchTerm, StringComparison.CurrentCultureIgnoreCase));
+            // _cashedSearchResults = _searchResults;
+            var allTrails = response.Trails.Select(x => new Trail
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Image = x.Image,
+                    Description = x.Description,
+                    Location = x.Location,
+                    Length = x.Length,
+                    TimeInMinutes = x.TimeInMinutes
+                });
+            _searchResults = allTrails.Where(x => x.Name.Contains(SearchTerm, StringComparison.CurrentCultureIgnoreCase)
+                             || x.Location.Contains(SearchTerm, StringComparison.CurrentCultureIgnoreCase));
             _cashedSearchResults = _searchResults;
-
+            
+            UpdateFilters();
         }
         catch (HttpRequestException ex)
         {
