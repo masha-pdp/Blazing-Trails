@@ -168,6 +168,10 @@
             "Microsoft.AspNetCore.Components.Forms": {
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [

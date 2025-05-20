@@ -17,9 +17,30 @@ if (app.Environment.IsDevelopment())
     app.UseWebAssemblyDebugging();
 }
 
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("!!! ERROR: " + ex.Message);
+        throw;
+    }
+});
+
+
 app.UseHttpsRedirection();
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions()
+    {
+        FileProvider = new
+            PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),
+                @"Images")),
+        RequestPath = new Microsoft.AspNetCore.Http.PathString("/Images")
+    });
 
 app.UseRouting();
 

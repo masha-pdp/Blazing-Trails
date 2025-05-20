@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazingTrails.Client",
   "resources": {
-    "hash": "sha256-/CIwfUeub16PiDcYtF8SzW5xWM9NKM2GsXxyADl9A1s=",
+    "hash": "sha256-I93Yf9wrodutABfO0LjxkJjzfNpGC3iPA05O+XiAHPQ=",
     "fingerprinting": {
       "Blazored.FluentValidation.x0xsecpmtx.wasm": "Blazored.FluentValidation.wasm",
       "FluentValidation.b28mz0qrx7.wasm": "FluentValidation.wasm",
@@ -11,7 +11,7 @@
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.nkegowssc4.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
-      "Microsoft.AspNetCore.Components.Web.cx40wf47rk.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
+      "Microsoft.AspNetCore.Components.Web.x0bkxyyfna.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.5cygu8f0zf.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Microsoft.AspNetCore.Metadata.kwdybu2ptu.wasm": "Microsoft.AspNetCore.Metadata.wasm",
       "Microsoft.Extensions.Configuration.ic45gpxjv4.wasm": "Microsoft.Extensions.Configuration.wasm",
@@ -28,7 +28,7 @@
       "Microsoft.Extensions.Logging.Abstractions.w8ltos2ii6.wasm": "Microsoft.Extensions.Logging.Abstractions.wasm",
       "Microsoft.Extensions.Options.olt0jsk54c.wasm": "Microsoft.Extensions.Options.wasm",
       "Microsoft.Extensions.Primitives.3sx0y6ui4u.wasm": "Microsoft.Extensions.Primitives.wasm",
-      "Microsoft.JSInterop.sk08br83jz.wasm": "Microsoft.JSInterop.wasm",
+      "Microsoft.JSInterop.fzaop883yy.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.fkdz83fr0b.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "Newtonsoft.Json.qkbufwhni2.wasm": "Newtonsoft.Json.wasm",
       "NUglify.obl0s3n6hg.wasm": "NUglify.wasm",
@@ -208,10 +208,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BlazingTrails.Shared.9cxory37pb.wasm": "BlazingTrails.Shared.wasm",
-      "BlazingTrails.Shared.uk2kulmqtt.pdb": "BlazingTrails.Shared.pdb",
-      "BlazingTrails.Client.vpztrp5f5i.wasm": "BlazingTrails.Client.wasm",
-      "BlazingTrails.Client.vyn7j4efnc.pdb": "BlazingTrails.Client.pdb"
+      "BlazingTrails.Shared.eoh5zfnxtn.wasm": "BlazingTrails.Shared.wasm",
+      "BlazingTrails.Shared.kck8it5pwo.pdb": "BlazingTrails.Shared.pdb",
+      "BlazingTrails.Client.zohy93hckg.wasm": "BlazingTrails.Client.wasm",
+      "BlazingTrails.Client.9xt60vzypj.pdb": "BlazingTrails.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -240,7 +240,7 @@
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "sha256-bZI3l2tb4nrkmIrNiXtsJx0hK5NmMKjbxScyGppJRRc=",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "sha256-uCPoBhiK6jy1XLoD5kfJqq90OJvGvmHwfhxDfkfQo8Y=",
       "Microsoft.AspNetCore.Components.Forms.nkegowssc4.wasm": "sha256-xwX4uISXcmBGLMOlfV4XC8rsnVS5UYl1K0uw5xA/aQI=",
-      "Microsoft.AspNetCore.Components.Web.cx40wf47rk.wasm": "sha256-ECvB9e5XSMH23qRbFlUaMQ7yi5lypoSEKbSDFgPrgfw=",
+      "Microsoft.AspNetCore.Components.Web.x0bkxyyfna.wasm": "sha256-0d3aiKytiUo0OC6iiBxqPAChmqTrtie5uV1tW5xTUjo=",
       "Microsoft.AspNetCore.Components.WebAssembly.5cygu8f0zf.wasm": "sha256-KwD9Lhu5DlaqdB2ceYX2LavpwSIAS5H07ZPT2jVbiu4=",
       "Microsoft.AspNetCore.Metadata.kwdybu2ptu.wasm": "sha256-5P1o5WRP6IIhk/piKDJ2LPu0LFvgSbaPBkD/26XdhnQ=",
       "Microsoft.Extensions.Configuration.ic45gpxjv4.wasm": "sha256-vnaZO3xnaFa9759X1ZOnVpCWKAwE9Xs9dd2r08xExUc=",
@@ -257,7 +257,7 @@
       "Microsoft.Extensions.Logging.Abstractions.w8ltos2ii6.wasm": "sha256-0Li+Npjfqm0UOGg+cuY4IHu1go7jcx7Cv4LelkoaOrU=",
       "Microsoft.Extensions.Options.olt0jsk54c.wasm": "sha256-3PjZLNn1QDw4xJynYcaTjuRXiZAvvaWB/HHjrz8VVv8=",
       "Microsoft.Extensions.Primitives.3sx0y6ui4u.wasm": "sha256-A0WIty9B3GNUBtsykg0eb3kD47r0/Cpfk8q1Ei8ECrc=",
-      "Microsoft.JSInterop.sk08br83jz.wasm": "sha256-FNS+xvA0GFiM2CVWHljv47AO+crkl0V7XiidkkMbVSw=",
+      "Microsoft.JSInterop.fzaop883yy.wasm": "sha256-ZZk7Nd3gJjOCwZi+mmnNYqzpljZB9AWTOmvs5hZ13xs=",
       "Microsoft.JSInterop.WebAssembly.fkdz83fr0b.wasm": "sha256-kSwbIGuYmzrEilFXnLY8mKBXXFQtVXKAF/Qa323+Fnk=",
       "Newtonsoft.Json.qkbufwhni2.wasm": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
       "NUglify.obl0s3n6hg.wasm": "sha256-DBzBZplruvfI12MWh/YUmL1BG0npFCPG7w0+nSzOmXs=",
@@ -428,12 +428,12 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "BlazingTrails.Shared.9cxory37pb.wasm": "sha256-N456WMCZ6XulJ0QaVNDIizYFac0unBgcJDSYsdHDGh4=",
-      "BlazingTrails.Client.vpztrp5f5i.wasm": "sha256-E2lBzOz9+fZSR3xdvg4qPzU68bqJAFpNhsxaXNpwThM="
+      "BlazingTrails.Shared.eoh5zfnxtn.wasm": "sha256-QsiB1BOKi4/5S056y0FYtp2LYZHl+FUZSu4jhL8sBZU=",
+      "BlazingTrails.Client.zohy93hckg.wasm": "sha256-EzP+GQUBo918hTKypW/+QS7blNDWcCWUG5BMuRmrViA="
     },
     "pdb": {
-      "BlazingTrails.Shared.uk2kulmqtt.pdb": "sha256-DnztDUbUPZMcDQX4K/SnafBfT8V/65e79T/Q014sRC8=",
-      "BlazingTrails.Client.vyn7j4efnc.pdb": "sha256-6WfJDq4L3HTOFCp9zeEvgT5EZLplEpBHu1rVdyng1Ok="
+      "BlazingTrails.Shared.kck8it5pwo.pdb": "sha256-/HBI9BqpVpCyxuGu228ahBG9l660dkeKhQrrteQNVwE=",
+      "BlazingTrails.Client.9xt60vzypj.pdb": "sha256-A5eo9/3CWNmZdNewROes6E6rc3YndBuVFIIJHlVgNbk="
     }
   },
   "cacheBootResources": true,

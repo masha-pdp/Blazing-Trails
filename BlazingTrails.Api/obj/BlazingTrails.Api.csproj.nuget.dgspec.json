@@ -87,6 +87,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0-preview.3.24172.9, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             }
           },
           "imports": [
@@ -274,6 +278,10 @@
               "version": "[12.5.0, )"
             },
             "Microsoft.AspNetCore.Components.Forms": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[9.0.5, )"
             }

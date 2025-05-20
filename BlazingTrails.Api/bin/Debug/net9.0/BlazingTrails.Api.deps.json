@@ -18,7 +18,8 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "9.0.0-preview.3.24172.13",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0-preview.4.24267.1",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.4.24267.1"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.4.24267.1",
+          "SixLabors.ImageSharp": "3.1.8"
         },
         "runtime": {
           "BlazingTrails.Api.dll": {}
@@ -39,7 +40,7 @@
       "Blazored.FluentValidation/2.2.0": {
         "dependencies": {
           "FluentValidation": "12.0.0",
-          "Microsoft.AspNetCore.Components.Web": "9.0.0"
+          "Microsoft.AspNetCore.Components.Web": "9.0.5"
         },
         "runtime": {
           "lib/net8.0/Blazored.FluentValidation.dll": {
@@ -163,18 +164,24 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/9.0.0": {
+      "Microsoft.AspNetCore.Components.Web/9.0.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "9.0.5",
           "Microsoft.AspNetCore.Components.Forms": "9.0.5",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.5",
           "Microsoft.Extensions.Primitives": "9.0.5",
-          "Microsoft.JSInterop": "9.0.0"
+          "Microsoft.JSInterop": "9.0.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Components.Web.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.22904"
+          }
         }
       },
       "Microsoft.AspNetCore.Components.WebAssembly/9.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "9.0.0",
+          "Microsoft.AspNetCore.Components.Web": "9.0.5",
           "Microsoft.Extensions.Configuration.Binder": "9.0.0",
           "Microsoft.Extensions.Configuration.Json": "9.0.0",
           "Microsoft.Extensions.Logging": "9.0.0",
@@ -585,9 +592,15 @@
           "Microsoft.Extensions.FileProviders.Abstractions": "9.0.0"
         }
       },
-      "Microsoft.Extensions.DependencyInjection/9.0.0": {
+      "Microsoft.Extensions.DependencyInjection/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.5": {
@@ -625,7 +638,7 @@
       "Microsoft.Extensions.FileSystemGlobbing/9.0.0": {},
       "Microsoft.Extensions.Logging/9.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.5",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
           "Microsoft.Extensions.Options": "9.0.5"
         }
@@ -661,10 +674,17 @@
           }
         }
       },
-      "Microsoft.JSInterop/9.0.0": {},
+      "Microsoft.JSInterop/9.0.5": {
+        "runtime": {
+          "lib/net9.0/Microsoft.JSInterop.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.22904"
+          }
+        }
+      },
       "Microsoft.JSInterop.WebAssembly/9.0.0": {
         "dependencies": {
-          "Microsoft.JSInterop": "9.0.0"
+          "Microsoft.JSInterop": "9.0.5"
         },
         "runtime": {
           "lib/net9.0/Microsoft.JSInterop.WebAssembly.dll": {
@@ -705,6 +725,14 @@
           "lib/net5.0/NUglify.dll": {
             "assemblyVersion": "1.21.9.0",
             "fileVersion": "1.21.9.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.8": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.8.0"
           }
         }
       },
@@ -955,7 +983,8 @@
         "dependencies": {
           "FluentValidation": "12.0.0",
           "MediatR": "12.5.0",
-          "Microsoft.AspNetCore.Components.Forms": "9.0.5"
+          "Microsoft.AspNetCore.Components.Forms": "9.0.5",
+          "Microsoft.AspNetCore.Components.Web": "9.0.5"
         },
         "runtime": {
           "BlazingTrails.Shared.dll": {
@@ -1077,12 +1106,12 @@
       "path": "microsoft.aspnetcore.components.forms/9.0.5",
       "hashPath": "microsoft.aspnetcore.components.forms.9.0.5.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Web/9.0.0": {
+    "Microsoft.AspNetCore.Components.Web/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZfJwwV05T+268cnJsO6yfi9oXYLe3ATRAEk0VZgBMptA5HVsduIsnFLjhNOYT7+I8NolxDEx1CEW8yKe5xTb6Q==",
-      "path": "microsoft.aspnetcore.components.web/9.0.0",
-      "hashPath": "microsoft.aspnetcore.components.web.9.0.0.nupkg.sha512"
+      "sha512": "sha512-llh2dh9rR9JcnAMqvbijc9BzEnVhloQwKF8Kvfw73N2tJMnUJoxF3C9Ln1sao+nkZo3IpUuUu3k2czLOpS3NRQ==",
+      "path": "microsoft.aspnetcore.components.web/9.0.5",
+      "hashPath": "microsoft.aspnetcore.components.web.9.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.WebAssembly/9.0.0": {
       "type": "package",
@@ -1273,12 +1302,12 @@
       "path": "microsoft.extensions.configuration.json/9.0.0",
       "hashPath": "microsoft.extensions.configuration.json.9.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/9.0.0": {
+    "Microsoft.Extensions.DependencyInjection/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MCPrg7v3QgNMr0vX4vzRXvkNGgLg8vKWX0nKCWUxu2uPyMsaRgiRc1tHBnbTcfJMhMKj2slE/j2M9oGkd25DNw==",
-      "path": "microsoft.extensions.dependencyinjection/9.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512"
+      "sha512": "sha512-N1Mn0T/tUBPoLL+Fzsp+VCEtneUhhxc1//Dx3BeuQ8AX+XrMlYCfnp2zgpEXnTCB7053CLdiqVWPZ7mEX6MPjg==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.5": {
       "type": "package",
@@ -1343,12 +1372,12 @@
       "path": "microsoft.extensions.primitives/9.0.5",
       "hashPath": "microsoft.extensions.primitives.9.0.5.nupkg.sha512"
     },
-    "Microsoft.JSInterop/9.0.0": {
+    "Microsoft.JSInterop/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-efQKxKUPe8OuH0hRiYsvBJkhhPzIYFNcr9+3wanQ7Bch/wr1JWNd90GYiPLtkSHepE1zMEoaLkAxi5N5/eyC4Q==",
-      "path": "microsoft.jsinterop/9.0.0",
-      "hashPath": "microsoft.jsinterop.9.0.0.nupkg.sha512"
+      "sha512": "sha512-ji4fQKbUUZiq3lmzVBMvp15VgBtEyfR51NrmEjo6qnD97Jf1R6C6QkSMjwUO8bw5NZIDRtmPCYurypB3W5AMEg==",
+      "path": "microsoft.jsinterop/9.0.5",
+      "hashPath": "microsoft.jsinterop.9.0.5.nupkg.sha512"
     },
     "Microsoft.JSInterop.WebAssembly/9.0.0": {
       "type": "package",
@@ -1384,6 +1413,13 @@
       "sha512": "sha512-ULyI/scrIRAo2In6cnaCc/QkWUt+wB6pBVt5lrVddOKyamsCAm1XgArkk4px9tVn6SipjhbTt4M38QPlpoET+g==",
       "path": "nuglify/1.21.9",
       "hashPath": "nuglify.1.21.9.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8eJkROLGh6DBQLR666q2aOpAaean2puZaZ6Ur9YxoyGzjaZhv8OJSxtnDou54+OXMkXtLUdyQC0so47sOsqZjg==",
+      "path": "sixlabors.imagesharp/3.1.8",
+      "hashPath": "sixlabors.imagesharp.3.1.8.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.7": {
       "type": "package",

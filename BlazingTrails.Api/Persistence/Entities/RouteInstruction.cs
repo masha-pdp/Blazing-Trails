@@ -20,5 +20,11 @@ public class RouteInstructionConfig : IEntityTypeConfiguration<RouteInstruction>
         builder.Property(x => x.Stage).IsRequired();
         builder.Property(x => x.Description).IsRequired();
         
+        // builder
+        //     .HasOne(x => x.Trail)
+        //     .WithMany(x => x.Route)
+        //     .HasForeignKey(x => x.TrailId)
+        //     .OnDelete(DeleteBehavior.Cascade);
+        
     }
 }

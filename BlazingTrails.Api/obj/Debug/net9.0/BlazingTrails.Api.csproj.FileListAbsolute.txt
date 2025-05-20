@@ -170,3 +170,7 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Newtonsoft.Json.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/NUglify.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.JSInterop.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/SixLabors.ImageSharp.dll

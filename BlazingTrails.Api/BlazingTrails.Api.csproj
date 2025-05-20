@@ -15,7 +15,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0-preview.3.24172.9" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.0-preview.3.24172.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0-preview.3.24172.9" PrivateAssets="all" /> 
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0-preview.3.24172.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0-preview.3.24172.9" /> 
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.8" />
 
   </ItemGroup>
 
@@ -30,6 +31,7 @@
 
 
   <ItemGroup>
+    <Folder Include="Images\" />
     <Folder Include="Persistence\Data\" />
   </ItemGroup>
 
