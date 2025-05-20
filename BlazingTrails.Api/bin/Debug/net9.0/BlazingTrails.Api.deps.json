@@ -965,6 +965,7 @@
       "System.Threading.Channels/7.0.0": {},
       "BlazingTrails.Client/1.0.0": {
         "dependencies": {
+          "BlazingTrails.ComponentLibrary": "1.0.0",
           "BlazingTrails.Shared": "1.0.0",
           "Blazored.FluentValidation": "2.2.0",
           "BuildBundlerMinifier2022": "2.9.11",
@@ -974,6 +975,17 @@
         },
         "runtime": {
           "BlazingTrails.Client.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BlazingTrails.ComponentLibrary/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.5"
+        },
+        "runtime": {
+          "BlazingTrails.ComponentLibrary.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1555,6 +1567,11 @@
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
     "BlazingTrails.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlazingTrails.ComponentLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

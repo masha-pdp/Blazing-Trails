@@ -174,3 +174,8 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/Microsoft.JSInterop.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/SixLabors.ImageSharp.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.ComponentLibrary.staticwebassets.runtime.json
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.ComponentLibrary.staticwebassets.endpoints.json
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.ComponentLibrary.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/bin/Debug/net9.0/BlazingTrails.ComponentLibrary.pdb
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/obj/Debug/net9.0/compressed/zd38e4y99m-wkz9geq1t4.gz

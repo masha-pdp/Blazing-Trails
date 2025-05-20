@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/scopedcss/projectbundle/BlazingTrails.ComponentLibrary.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.BlazingTrails.ComponentLibrary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.BlazingTrails.ComponentLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.BlazingTrails.ComponentLibrary.props",
+      "PackagePath": "build\\BlazingTrails.ComponentLibrary.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.BlazingTrails.ComponentLibrary.props",
+      "PackagePath": "buildMultiTargeting\\BlazingTrails.ComponentLibrary.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.BlazingTrails.ComponentLibrary.props",
+      "PackagePath": "buildTransitive\\BlazingTrails.ComponentLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

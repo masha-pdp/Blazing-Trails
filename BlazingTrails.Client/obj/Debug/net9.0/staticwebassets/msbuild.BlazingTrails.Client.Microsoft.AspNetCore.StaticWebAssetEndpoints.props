@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="BlazingTrails.Client.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazingTrails.Client.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nDU5CPyZwslls7T10w5/pTt8\u002BfYD2Nh48zH6ubZSit0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2278"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nDU5CPyZwslls7T10w5/pTt8\u002BfYD2Nh48zH6ubZSit0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 09:12:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-K8GP62fRp44brBmWuefoSt9bklRyJeyMGBGP3RLSIbI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2644"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022K8GP62fRp44brBmWuefoSt9bklRyJeyMGBGP3RLSIbI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 18:57:15 GMT"},{"Name":"Link","Value":"\u003C_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="BlazingTrails.Client.wbrte2blbr.styles.css">
+    <StaticWebAssetEndpoint Include="BlazingTrails.Client.z2c4f7o902.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazingTrails.Client.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wbrte2blbr"},{"Name":"integrity","Value":"sha256-nDU5CPyZwslls7T10w5/pTt8\u002BfYD2Nh48zH6ubZSit0="},{"Name":"label","Value":"BlazingTrails.Client.styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2278"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nDU5CPyZwslls7T10w5/pTt8\u002BfYD2Nh48zH6ubZSit0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 09:12:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z2c4f7o902"},{"Name":"integrity","Value":"sha256-K8GP62fRp44brBmWuefoSt9bklRyJeyMGBGP3RLSIbI="},{"Name":"label","Value":"BlazingTrails.Client.styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2644"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022K8GP62fRp44brBmWuefoSt9bklRyJeyMGBGP3RLSIbI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 18:57:15 GMT"},{"Name":"Link","Value":"\u003C_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="css/app.87xmlq8hs3.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>

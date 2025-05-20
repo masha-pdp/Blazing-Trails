@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"72zt7nveav"},{"Name":"integrity","Value":"sha256-QRbSXn/FVE2udkhKeCXrez7tAedOpk/rVpb/zltTI3o="},{"Name":"label","Value":"_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"749"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QRbSXn/FVE2udkhKeCXrez7tAedOpk/rVpb/zltTI3o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 18:57:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QRbSXn/FVE2udkhKeCXrez7tAedOpk/rVpb/zltTI3o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"749"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QRbSXn/FVE2udkhKeCXrez7tAedOpk/rVpb/zltTI3o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 18:57:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

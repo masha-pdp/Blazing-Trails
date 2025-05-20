@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.grid[b-msu7aobuax] {
+  display: grid;
+  grid-template-columns: repeat(3, 288px);
+  grid-column-gap: 123px;
+  grid-row-gap: 75px;
+}
+
+table[b-msu7aobuax] {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+/* Вместо ::deep — просто каскадные стили */
+table th[b-msu7aobuax],
+table td[b-msu7aobuax] {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+table thead tr th[b-msu7aobuax] {
+  border-bottom: 4px solid var(--brand);
+  border-top: none;
+}
+
+table tbody tr:nth-of-type(odd)[b-msu7aobuax] {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*# sourceMappingURL=ViewSwitcher.razor.css.map */

@@ -538,6 +538,19 @@
           }
         }
       },
+      "BlazingTrails.ComponentLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingTrails.ComponentLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingTrails.ComponentLibrary.dll": {}
+        }
+      },
       "BlazingTrails.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1090,6 +1103,19 @@
           "lib/net5.0/NUglify.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BlazingTrails.ComponentLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazingTrails.ComponentLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazingTrails.ComponentLibrary.dll": {}
         }
       },
       "BlazingTrails.Shared/1.0.0": {
@@ -2155,6 +2181,11 @@
         "nuglify.png"
       ]
     },
+    "BlazingTrails.ComponentLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.csproj",
+      "msbuildProject": "../BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.csproj"
+    },
     "BlazingTrails.Shared/1.0.0": {
       "type": "project",
       "path": "../BlazingTrails.Shared/BlazingTrails.Shared.csproj",
@@ -2163,6 +2194,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "BlazingTrails.ComponentLibrary >= 1.0.0",
       "BlazingTrails.Shared >= 1.0.0",
       "Blazored.FluentValidation >= 2.2.0",
       "BuildBundlerMinifier2022 >= 2.9.11",
@@ -2199,6 +2231,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.csproj": {
+              "projectPath": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.csproj"
+            },
             "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/BlazingTrails.Shared.csproj": {
               "projectPath": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Shared/BlazingTrails.Shared.csproj"
             }

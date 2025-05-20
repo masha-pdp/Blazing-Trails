@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = BlazingTrails.ComponentLibrary
+build_property.RootNamespace = BlazingTrails.ComponentLibrary
+build_property.ProjectDir = /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/ViewSwitcher.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1N3aXRjaGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-msu7aobuax
