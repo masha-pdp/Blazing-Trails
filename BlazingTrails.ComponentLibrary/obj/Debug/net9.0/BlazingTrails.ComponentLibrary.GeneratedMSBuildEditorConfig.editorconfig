@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/Map/RouteMap.Razor]
+build_metadata.AdditionalFiles.TargetPath = TWFwL1JvdXRlTWFwLlJhem9y
+build_metadata.AdditionalFiles.CssScope = b-n6y404576i
+
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/ViewSwitcher.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld1N3aXRjaGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-msu7aobuax

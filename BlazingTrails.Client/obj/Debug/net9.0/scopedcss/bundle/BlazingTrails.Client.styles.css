@@ -1,4 +1,4 @@
-@import '_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css';
+@import '_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.870relwncq.bundle.scp.css';
 
 /* /Features/Home/HomePage.razor.rz.scp.css */
 .no-trails[b-0kvbbeyixf] {
@@ -101,6 +101,12 @@
 
 
 /*# sourceMappingURL=FormSection.razor.css.map */
+/* /Features/ManageTrails/Shared/InputRouteMap.razor.rz.scp.css */
+.is-invalid[b-5up5timwn8] {
+  border: 1px solid #dc3545;
+}
+
+/*# sourceMappingURL=InputRouteMap.razor.css.map */
 /* /Features/ManageTrails/Shared/InputTime.razor.rz.scp.css */
 .input-time[b-5ccc8v39w7] {
   display: flex;

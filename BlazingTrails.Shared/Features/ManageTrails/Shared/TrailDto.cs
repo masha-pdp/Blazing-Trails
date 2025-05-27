@@ -14,14 +14,15 @@ public class TrailDto
     public int TimeInMinutes { get; set; }
     public int Length { get; set; }
     
-    
-    public List<RouteInstruction> Route { get; set; } = new List<RouteInstruction>();
+    public List<WaypointDto> Waypoints { get; set; } = new List<WaypointDto>();
+    // public List<RouteInstruction> Route { get; set; } = new List<RouteInstruction>();
 
-    public class RouteInstruction
-    {
-        public int Stage { get; set; }
-        public string Description { get; set; } = "";
-    }
+    // public class RouteInstruction
+    // {
+    //     public int Stage { get; set; }
+    //     public string Description { get; set; } = "";
+    // }
+    public record WaypointDto(decimal Latitude, decimal Longitude);
 }
 
 public enum ImageAction
@@ -40,16 +41,17 @@ public class TrailValidator : AbstractValidator<TrailDto>
         RuleFor(x => x.Location).NotEmpty().WithMessage("Please enter a location");
         RuleFor(x => x.Length).GreaterThan(0).WithMessage("Please enter a length");
         RuleFor(x => x.TimeInMinutes).GreaterThan(0).WithMessage("Please enter a time");
-        RuleForEach(x => x.Route).SetValidator(new RouteInstructionValidator());
+        RuleFor(x => x.Waypoints).NotEmpty().WithMessage("Please add a waypoint");
+        // RuleForEach(x => x.Route).SetValidator(new RouteInstructionValidator());
     }
 }
 
-public class RouteInstructionValidator : AbstractValidator<TrailDto.RouteInstruction>
-{
-    public RouteInstructionValidator()
-    {
-        RuleFor(x => x.Stage).NotEmpty().WithMessage("Please enter a stage");
-        RuleFor(x => x.Description).NotEmpty().WithMessage("Please enter a description");
-    }
-}
+// public class RouteInstructionValidator : AbstractValidator<TrailDto.RouteInstruction>
+// {
+//     public RouteInstructionValidator()
+//     {
+//         RuleFor(x => x.Stage).NotEmpty().WithMessage("Please enter a stage");
+//         RuleFor(x => x.Description).NotEmpty().WithMessage("Please enter a description");
+//     }
+// }
 

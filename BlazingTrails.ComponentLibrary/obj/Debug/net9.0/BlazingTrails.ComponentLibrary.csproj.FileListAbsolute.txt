@@ -14,8 +14,6 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/scopedcss/ViewSwitcher.razor.rz.scp.css
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/scopedcss/bundle/BlazingTrails.ComponentLibrary.styles.css
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/scopedcss/projectbundle/BlazingTrails.ComponentLibrary.bundle.scp.css
-/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/compressed/y35l34isct-72zt7nveav.gz
-/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/compressed/8wiep99400-72zt7nveav.gz
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/staticwebassets.build.json
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/staticwebassets.development.json
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -29,3 +27,10 @@
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/refint/BlazingTrails.ComponentLibrary.dll
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/BlazingTrails.ComponentLibrary.pdb
 /Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/ref/BlazingTrails.ComponentLibrary.dll
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/bin/Debug/net9.0/wwwroot/Map/RouteMap.razor.js
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/bin/Debug/net9.0/wwwroot/Map/RouteMap.razor.js.gz
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/bin/Debug/net9.0/Map/RouteMap.razor.js
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/scopedcss/Map/RouteMap.razor.rz.scp.css
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/compressed/y35l34isct-870relwncq.gz
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/compressed/8wiep99400-870relwncq.gz
+/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/compressed/apaqi2f9r9-rh03okf0eb.gz

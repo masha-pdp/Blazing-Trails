@@ -100,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope = b-6ayv425e1m
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL1NoYXJlZC9Gb3JtU2VjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1vt0z2wejk
 
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/ManageTrails/Shared/InputRouteMap.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL1NoYXJlZC9JbnB1dFJvdXRlTWFwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-5up5timwn8
+
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/ManageTrails/Shared/InputTime.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL1NoYXJlZC9JbnB1dFRpbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5ccc8v39w7

@@ -53,13 +53,14 @@ else if (_errorMessage is not null)
             _trail.Location = response.Trail.Location;
             _trail.Image = response.Trail.Image;
             _trail.Length = response.Trail.Length;
-            _trail.TimeInMinutes = response.Trail.TimeInMinutes; 
-            _trail.Route.Clear();
-            _trail.Route.AddRange(response.Trail.RouteInstructions.Select(ri => new TrailDto.RouteInstruction
-                {
-                    Stage = ri.Stage,
-                    Description = ri.Description
-                }));
+            _trail.TimeInMinutes = response.Trail.TimeInMinutes;
+            _trail.Waypoints.AddRange(response.Trail.Waypoints.Select(wp => new TrailDto.WaypointDto(wp.Latitude, wp.Longitude)));
+            // _trail.Route.Clear();
+            // _trail.Route.AddRange(response.Trail.RouteInstructions.Select(ri => new TrailDto.RouteInstruction
+            //     {
+            //         Stage = ri.Stage,
+            //         Description = ri.Description
+            //     }));
         }
         else
         {
@@ -83,13 +84,15 @@ else if (_errorMessage is not null)
             _trail.Location = trail.Location;
             _trail.Length = trail.Length;
             _trail.TimeInMinutes = trail.TimeInMinutes;
-            _trail.Route.Clear();
-            _trail.Route.AddRange(trail.Route.Select(ri => new TrailDto.RouteInstruction
-
-            {
-                Stage = ri.Stage,
-                Description = ri.Description
-            }));
+            // _trail.Route.Clear();
+            // _trail.Route.AddRange(trail.Route.Select(ri => new TrailDto.RouteInstruction
+            //
+            // {
+            //     Stage = ri.Stage,
+            //     Description = ri.Description
+            // }));
+            _trail.Waypoints.Clear();
+            _trail.Waypoints.AddRange(trail.Waypoints.Select(wp => new TrailDto.WaypointDto(wp.Latitude, wp.Longitude)));
             _submitSuccessful = true;
 
             if (trail.ImageAction == ImageAction.Add) _submitSuccessful = await ProcessImage(trail.Id, image!);

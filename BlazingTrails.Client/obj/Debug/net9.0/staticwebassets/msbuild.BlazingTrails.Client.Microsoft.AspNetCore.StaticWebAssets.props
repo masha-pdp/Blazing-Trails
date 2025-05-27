@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>z2c4f7o902</Fingerprint>
-      <Integrity>K8GP62fRp44brBmWuefoSt9bklRyJeyMGBGP3RLSIbI=</Integrity>
+      <Fingerprint>mghf7941iw</Fingerprint>
+      <Integrity>2k41wIRY1rKY7YdWbVYvQP1B5h89R6zKBDqHxJADbY0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazingTrails.Client.styles.css'))</OriginalItemSpec>
@@ -300,8 +300,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pvzfjk6nub</Fingerprint>
-      <Integrity>ZUazj4EqnTUMQVWgWuc78UYxwYnkjYzk2x+M6icJb9g=</Integrity>
+      <Fingerprint>h7sub7e276</Fingerprint>
+      <Integrity>TbE4tSgHw/kHsbBJM4fHvRAGFFcvLVN9h0q2VE3CFB0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

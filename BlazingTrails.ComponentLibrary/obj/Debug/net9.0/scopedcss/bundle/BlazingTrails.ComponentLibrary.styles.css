@@ -1,3 +1,15 @@
+/* _content/BlazingTrails.ComponentLibrary/Map/RouteMap.razor.rz.scp.css */
+map-wrapper[b-n6y404576i] {
+  position: relative;
+}
+map-wrapper .controls[b-n6y404576i] {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+/*# sourceMappingURL=RouteMap.razor.css.map */
 /* _content/BlazingTrails.ComponentLibrary/ViewSwitcher.razor.rz.scp.css */
 @charset "UTF-8";
 .grid[b-msu7aobuax] {

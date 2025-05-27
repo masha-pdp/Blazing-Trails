@@ -1,8 +1,12 @@
 {
   "Files": [
     {
+      "Id": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/Map/RouteMap.razor.js",
+      "PackagePath": "staticwebassets/Map/RouteMap.razor.js"
+    },
+    {
       "Id": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.ComponentLibrary/obj/Debug/net9.0/scopedcss/projectbundle/BlazingTrails.ComponentLibrary.bundle.scp.css",
-      "PackagePath": "staticwebassets/BlazingTrails.ComponentLibrary.72zt7nveav.bundle.scp.css"
+      "PackagePath": "staticwebassets/BlazingTrails.ComponentLibrary.870relwncq.bundle.scp.css"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.BlazingTrails.ComponentLibrary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

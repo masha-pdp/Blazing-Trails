@@ -24,19 +24,25 @@ public class AddTrailEndpoint : EndpointBaseAsync.WithRequest<AddTrailRequest>.W
             Description = request.Trail.Description,
             Location = request.Trail.Location,
             TimeInMinutes = 0,
-            Length = request.Trail.Length
+            Length = request.Trail.Length,
+            Waypoints = request.Trail.Waypoints.Select(wp => new Waypoint
+            {
+                Latitude = wp.Latitude,
+                Longitude = wp.Longitude
+                
+            }).ToList()
         };
 
         await _database.Trails.AddAsync(trail, cancellationToken);
 
-        var routeInstructions = request.Trail.Route.Select(x => new Persistence.Entities.RouteInstruction
-        {
-            Stage = x.Stage,
-            Description = x.Description,
-            Trail = trail
-        });
-
-        await _database.RouteInstructions.AddRangeAsync(routeInstructions, cancellationToken);
+        // var routeInstructions = request.Trail.Route.Select(x => new Persistence.Entities.RouteInstruction
+        // {
+        //     Stage = x.Stage,
+        //     Description = x.Description,
+        //     Trail = trail
+        // });
+        //
+        // await _database.RouteInstructions.AddRangeAsync(routeInstructions, cancellationToken);
         await _database.SaveChangesAsync(cancellationToken);
 
         return Ok(trail.Id);

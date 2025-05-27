@@ -28,7 +28,8 @@ public partial class HomePage
                 Description = x.Description,
                 Location = x.Location,
                 Length = x.Length,
-                TimeInMinutes = x.TimeInMinutes
+                TimeInMinutes = x.TimeInMinutes,
+                Waypoints = x.Waypoints.Select(wp => new BlazingTrails.ComponentLibrary.Map.LatLong (wp.Latitude, wp.Longitude)).ToList()
             });
         }
         catch (Exception ex)
