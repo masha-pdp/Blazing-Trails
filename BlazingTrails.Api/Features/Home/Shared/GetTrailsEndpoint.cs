@@ -4,6 +4,7 @@ using BlazingTrails.Shared.Features.Home.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace BlazingTrails.Api.Features.Home.Shared;
 
 public class GetTrailsEndpoint : EndpointBaseAsync.WithRequest<int>.WithActionResult<GetTrailsRequest.Response>
@@ -14,7 +15,8 @@ public class GetTrailsEndpoint : EndpointBaseAsync.WithRequest<int>.WithActionRe
     {
         _context = context;
     }
-
+    
+    
     [HttpGet(GetTrailsRequest.RouteTemplate)]
     public override async Task<ActionResult<GetTrailsRequest.Response>> HandleAsync(int trailId, CancellationToken cancellationToken = default)
     {
@@ -28,6 +30,7 @@ public class GetTrailsEndpoint : EndpointBaseAsync.WithRequest<int>.WithActionRe
             trail.TimeInMinutes,
             trail.Length,
             trail.Description,
+            trail.Owner,
             trail.Waypoints.Select(wp =>new GetTrailsRequest.Waypoint(wp.Latitude, wp.Longitude))
                 .ToList()
         )));

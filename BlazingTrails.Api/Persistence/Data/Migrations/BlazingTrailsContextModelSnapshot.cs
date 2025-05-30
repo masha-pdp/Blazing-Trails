@@ -40,6 +40,10 @@ namespace BlazingTrails.Api.Persistence.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Owner")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("TimeInMinutes")
                         .HasColumnType("INTEGER");
 

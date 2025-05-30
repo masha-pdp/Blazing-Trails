@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/BlazingTrails.Client.styles.css"
     },
     {
+      "Id": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/wwwroot/appsettings.json",
+      "PackagePath": "staticwebassets/appsettings.json"
+    },
+    {
       "Id": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },

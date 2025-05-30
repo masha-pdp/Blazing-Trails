@@ -28,6 +28,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Auth/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvQXV0aC9BdXRoZW50aWNhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Auth/LoginStatus.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvQXV0aC9Mb2dpblN0YXR1cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Home/Search/SearchPage.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvSG9tZS9TZWFyY2gvU2VhcmNoUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
