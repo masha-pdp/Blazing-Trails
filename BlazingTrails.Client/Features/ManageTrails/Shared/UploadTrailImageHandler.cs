@@ -5,12 +5,11 @@ namespace BlazingTrails.Client.Features.ManageTrails;
 
 public class UploadTrailImageHandler : IRequestHandler<UploadTrailImageRequest, UploadTrailImageRequest.Response>
 {
-    // private readonly HttpClient _httpClient;
-    private readonly IHttpClientFactory _httpClientFactory;
+    private readonly HttpClient _httpClient;
     
-    public UploadTrailImageHandler(IHttpClientFactory httpClientFactory)
+    public UploadTrailImageHandler(HttpClient httpClient)
     {
-        _httpClientFactory = httpClientFactory;
+        _httpClient = httpClient;
     }
 
     public async Task<UploadTrailImageRequest.Response> Handle(UploadTrailImageRequest request,
@@ -21,9 +20,7 @@ public class UploadTrailImageHandler : IRequestHandler<UploadTrailImageRequest, 
         using var content = new MultipartFormDataContent();
         content.Add(new StreamContent(fileContent), "image", request.File.Name);
         
-        var client = _httpClientFactory.CreateClient("SecureAPIClient");
-        
-        var response = await client.PostAsync(UploadTrailImageRequest.RouteTemplate.Replace("{trailId}", 
+        var response = await _httpClient.PostAsync(UploadTrailImageRequest.RouteTemplate.Replace("{trailId}", 
             request.TrailId.ToString()), content, cancellationToken);
         
         if (response.IsSuccessStatusCode)

@@ -11,13 +11,12 @@ builder.Services.AddDbContext<BlazingTrailsContext>(options => options.UseSqlite
     .GetConnectionString( "BlazingTrailsContext")));
 builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssembly(Assembly.Load("BlazingTrails.Shared")));
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+builder.Services.AddAuthentication (options => {
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; 
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
+}).AddJwtBearer (options =>
 {
-    options.Authority = builder.Configuration["Auth0:Authority"];
+    options.Authority = builder.Configuration["Auth0:Authority"]; 
     options.Audience = builder.Configuration["Auth0:ApiIdentifier"];
 });
 
@@ -54,10 +53,12 @@ app.UseStaticFiles(new StaticFileOptions()
     });
 
 app.UseRouting();
-app.MapControllers();
-app.MapFallbackToFile ("index.html");
+
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapControllers();
+app.MapFallbackToFile ("index.html");
 app.Run();
 
 

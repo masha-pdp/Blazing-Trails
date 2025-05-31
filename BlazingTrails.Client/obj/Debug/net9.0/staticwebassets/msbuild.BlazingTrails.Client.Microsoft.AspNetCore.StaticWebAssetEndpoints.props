@@ -208,13 +208,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zRZwLNJ83/Si4GzorOrGq7C\u002BQcRFnrVdcf4IMCYSKdk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1261"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zRZwLNJ83/Si4GzorOrGq7C\u002BQcRFnrVdcf4IMCYSKdk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 11:20:22 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1261"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zRZwLNJ83/Si4GzorOrGq7C\u002BQcRFnrVdcf4IMCYSKdk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 13:41:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="index.n3j2gjescj.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n3j2gjescj"},{"Name":"integrity","Value":"sha256-zRZwLNJ83/Si4GzorOrGq7C\u002BQcRFnrVdcf4IMCYSKdk="},{"Name":"label","Value":"index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1261"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zRZwLNJ83/Si4GzorOrGq7C\u002BQcRFnrVdcf4IMCYSKdk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 11:20:22 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1261"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zRZwLNJ83/Si4GzorOrGq7C\u002BQcRFnrVdcf4IMCYSKdk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 13:41:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="trails/1.1engf2415g.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\trails\1.jpg'))</AssetFile>

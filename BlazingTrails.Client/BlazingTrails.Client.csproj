@@ -32,6 +32,11 @@
 		<ProjectReference Include="..\BlazingTrails.ComponentLibrary\BlazingTrails.ComponentLibrary.csproj" />
 	</ItemGroup>
 
+   <ItemGroup>
+     <_ContentIncludedByDefault Remove="Features\Auth\Authentication.razor" />
+     <_ContentIncludedByDefault Remove="Features\Auth\LoginStatus.razor" />
+   </ItemGroup>
+
 
 	<Target Name="CheckForNpm" BeforeTargets="RunNpmInstall">
 		<Exec Command="npm --version" ContinueOnError="true">

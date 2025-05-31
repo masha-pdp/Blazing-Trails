@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using BlazingTrails.Shared.Features.ManageTrails;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
-using Microsoft.AspNetCore.Authorization;
 
 
 namespace BlazingTrails.Api.Features.ManageTrails;
@@ -19,7 +18,6 @@ public class UploadTrailImageEndpoint: EndpointBaseAsync.WithRequest<int>.WithAc
         _database = database;
     }
 
-    [Authorize]
     [HttpPost(UploadTrailImageRequest.RouteTemplate)]
     public override async Task<ActionResult<string>> HandleAsync([FromRoute] int trailId,
         CancellationToken cancellationToken = default)
@@ -29,11 +27,6 @@ public class UploadTrailImageEndpoint: EndpointBaseAsync.WithRequest<int>.WithAc
         if (trail is null)
         {
             return BadRequest("Trail does not exist.");
-        }
-        
-        if (trail.Owner.Equals(HttpContext.User.Identity!.Name,StringComparison.OrdinalIgnoreCase))
-        {
-            return Unauthorized();
         }
         
         var file = Request.Form.Files[0];

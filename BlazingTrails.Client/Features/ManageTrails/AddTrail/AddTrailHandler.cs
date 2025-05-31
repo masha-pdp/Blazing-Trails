@@ -6,20 +6,16 @@ namespace BlazingTrails.Client.Features.ManageTrails;
 
 public class AddTrailHandler : IRequestHandler<AddTrailRequest, AddTrailRequest.Response>
 {
-    // private readonly HttpClient _httpClient;
-    private readonly IHttpClientFactory _httpClientFactory;
+    private readonly HttpClient _httpClient;
 
-    public AddTrailHandler(IHttpClientFactory httpClientFactory)
+    public AddTrailHandler(HttpClient httpClient)
     {
-        // _httpClient = httpClient;
-        _httpClientFactory = httpClientFactory;   
+        _httpClient = httpClient;
     }
 
     public async Task<AddTrailRequest.Response> Handle(AddTrailRequest request, CancellationToken cancellationToken)
     {
-        // var response = await _httpClient.PostAsJsonAsync(AddTrailRequest.RouteTemplate, request, cancellationToken);
-        var client = _httpClientFactory.CreateClient("SecureAPIClient");
-        var response = await client.PostAsJsonAsync(AddTrailRequest.RouteTemplate, request, cancellationToken);
+        var response = await _httpClient.PostAsJsonAsync(AddTrailRequest.RouteTemplate, request, cancellationToken);
 
         if (response.IsSuccessStatusCode)
         {
@@ -30,6 +26,5 @@ public class AddTrailHandler : IRequestHandler<AddTrailRequest, AddTrailRequest.
         {
             return new AddTrailRequest.Response(-1);
         }
-
     }
 }
