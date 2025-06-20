@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using BlazingTrails.Shared.Features.ManageTrails;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace BlazingTrails.Api.Features.ManageTrails;
@@ -17,7 +18,7 @@ public class UploadTrailImageEndpoint: EndpointBaseAsync.WithRequest<int>.WithAc
     {
         _database = database;
     }
-
+    [Authorize]
     [HttpPost(UploadTrailImageRequest.RouteTemplate)]
     public override async Task<ActionResult<string>> HandleAsync([FromRoute] int trailId,
         CancellationToken cancellationToken = default)
@@ -27,6 +28,19 @@ public class UploadTrailImageEndpoint: EndpointBaseAsync.WithRequest<int>.WithAc
         if (trail is null)
         {
             return BadRequest("Trail does not exist.");
+        }
+        var email = 
+            HttpContext.User.Claims.FirstOrDefault(c => c.Type == "email")?.Value
+            ?? HttpContext.User.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress")?.Value
+            ?? throw new Exception("Email not found in user claims");
+
+        var role = HttpContext.User.Claims
+            .FirstOrDefault(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role")
+            ?.Value;
+
+        if (!trail.Owner.Equals(email, StringComparison.OrdinalIgnoreCase) && role != "Administrator")
+        {
+            return Unauthorized();
         }
         
         var file = Request.Form.Files[0];

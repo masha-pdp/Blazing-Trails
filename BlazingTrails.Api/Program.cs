@@ -4,6 +4,9 @@ using Microsoft.Extensions.FileProviders;
 using FluentValidation.AspNetCore;
 using System.Reflection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +14,21 @@ builder.Services.AddDbContext<BlazingTrailsContext>(options => options.UseSqlite
     .GetConnectionString( "BlazingTrailsContext")));
 builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssembly(Assembly.Load("BlazingTrails.Shared")));
 
-builder.Services.AddAuthentication (options => {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; 
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer (options =>
-{
-    options.Authority = builder.Configuration["Auth0:Authority"]; 
-    options.Audience = builder.Configuration["Auth0:ApiIdentifier"];
-});
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(options =>
+    {
+        options.Authority = builder.Configuration["Auth0:Authority"];
+        options.Audience = builder.Configuration["Auth0:ApiIdentifier"];
+        
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            NameClaimType = "https://blazingtrails.com/claims/email"
+        };
+    });
 
 var app = builder.Build();
 

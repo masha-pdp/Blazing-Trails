@@ -18,9 +18,16 @@
         <button class="btn btn-primary" title="View" @onclick="@(async () => await OnSelected.InvokeAsync(Trail))">
             <i class="bi bi-binoculars"></i>
         </button>
-        <button class="btn btn-outline-secondary float-right" title="Edit" @onclick="@(() => NavManager.NavigateTo($"/edit-trail/{Trail.Id}"))">
-            <i class="bi bi-pencil"></i>
-        </button>
+        <AuthorizeView>
+            @if (Trail.Owner.Equals(context.User.FindFirst("email")?.Value, StringComparison.OrdinalIgnoreCase)
+                 || context.User.Claims.Any(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" && c.Value == "Administrator"))
+            {
+                <button class="btn btn-outline-secondary float-right" title="Edit" @onclick="@(() => NavManager.NavigateTo($"/edit-trail/{Trail.Id}"))">
+                    <i class="bi bi-pencil"></i>
+                </button>
+            }
+        </AuthorizeView>
+
     </div>
 </div>
 

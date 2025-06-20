@@ -28,6 +28,7 @@ public class GetTrailsEndpoint : EndpointBaseAsync.WithRequest<int>.WithActionRe
             trail.TimeInMinutes,
             trail.Length,
             trail.Description,
+            trail.Owner,
             trail.Waypoints.Select(wp =>new GetTrailsRequest.Waypoint(wp.Latitude, wp.Longitude))
                 .ToList()
         )));

@@ -16,9 +16,24 @@ else
 
     @if (_trails.Any())
     {
-        <div class="mb-4">
-            <p class="font-italic text-center">Do you have an awesome trail you'd like to share? <a href="add-trail">Add it here</a>.</p>
-        </div>
+        <AuthorizeView>
+            <Authorized>
+                <div class="mb-4">
+                    <p class="font-italic text-center">Do you have an awesome trail you'd like to share? <a href="add-trail">Add it here</a>.</p>
+                </div>
+                @* <ul> *@
+                @*     @foreach (var claim in context.User.Claims) *@
+                @*     { *@
+                @*         <li>@claim.Type: @claim.Value</li> *@
+                @*     } *@
+                @* </ul> *@
+            </Authorized>
+            <NotAuthorized>
+                <div class="mb-4">
+                    <p class="font-italic text-center">Do you have an awesome trail you'd like to share? Please <a href="authentication/login">log in or sign up</a>.</p>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
 
         <ViewSwitcher Items="_trails" Context="trail">
             <GridTemplate>
@@ -40,9 +55,15 @@ else
                     <button @onclick="@(() => HandleTrailSelected(trail))" title="View" class="btn btn-primary">
                         <i class="bi bi-binoculars"></i>
                     </button>
-                    <button @onclick="@(() => NavManager.NavigateTo($"/edit-trail/{trail.Id}"))" title="Edit" class="btn btn-outline-secondary">
-                        <i class="bi bi-pencil"></i>
-                    </button>
+                    <AuthorizeView>
+                        @if (trail.Owner.Equals(context.User.FindFirst("email")?.Value, StringComparison.OrdinalIgnoreCase)
+                             || context.User.Claims.Any(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" && c.Value == "Administrator"))
+                        {
+                            <button @onclick="@(() => NavManager.NavigateTo($"/edit-trail/{trail.Id}"))" title="Edit" class="btn btn-outline-secondary">
+                                <i class="bi bi-pencil"></i>
+                            </button>
+                        }
+                    </AuthorizeView>
                 </td>
             </RowTemplate>
         </ViewSwitcher>

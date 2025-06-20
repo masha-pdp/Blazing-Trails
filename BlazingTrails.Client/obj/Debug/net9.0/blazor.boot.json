@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazingTrails.Client",
   "resources": {
-    "hash": "sha256-mZK54PiNES5XQ0Hh4SUSFo+pKL/Tlp1mp8egjm6Anew=",
+    "hash": "sha256-JaklidUjtwbPBobQkGQGefYyD6LudMvYTpXipKfOeHA=",
     "fingerprinting": {
       "Blazored.FluentValidation.x0xsecpmtx.wasm": "Blazored.FluentValidation.wasm",
       "FluentValidation.b28mz0qrx7.wasm": "FluentValidation.wasm",
@@ -214,12 +214,12 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BlazingTrails.ComponentLibrary.had13rpmme.wasm": "BlazingTrails.ComponentLibrary.wasm",
-      "BlazingTrails.Shared.hui9kluvss.wasm": "BlazingTrails.Shared.wasm",
-      "BlazingTrails.Shared.eaq0j13zib.pdb": "BlazingTrails.Shared.pdb",
-      "BlazingTrails.ComponentLibrary.ni8w2d5cv0.pdb": "BlazingTrails.ComponentLibrary.pdb",
-      "BlazingTrails.Client.5rn50c4zfc.wasm": "BlazingTrails.Client.wasm",
-      "BlazingTrails.Client.84p62425lb.pdb": "BlazingTrails.Client.pdb"
+      "BlazingTrails.ComponentLibrary.nfzoovunsw.wasm": "BlazingTrails.ComponentLibrary.wasm",
+      "BlazingTrails.Shared.s6nyw0ocrd.wasm": "BlazingTrails.Shared.wasm",
+      "BlazingTrails.Shared.wm4677wqhh.pdb": "BlazingTrails.Shared.pdb",
+      "BlazingTrails.ComponentLibrary.pv3c93ai4j.pdb": "BlazingTrails.ComponentLibrary.pdb",
+      "BlazingTrails.Client.m2hp9duoj1.wasm": "BlazingTrails.Client.wasm",
+      "BlazingTrails.Client.hbgglfuv3j.pdb": "BlazingTrails.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -442,14 +442,14 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "BlazingTrails.ComponentLibrary.had13rpmme.wasm": "sha256-d8cSQamN+GnAJyc1aNgJoCXGJUTEZ+D3KoECUNp9538=",
-      "BlazingTrails.Shared.hui9kluvss.wasm": "sha256-qW9ArY3WjgwdAN0tOkotx66viBStkzSHxJX7pDhS7Ws=",
-      "BlazingTrails.Client.5rn50c4zfc.wasm": "sha256-gbdx4vOl2OpuIEJbddiXVHB4h53+sASIaXxnYwpg2mA="
+      "BlazingTrails.ComponentLibrary.nfzoovunsw.wasm": "sha256-Y13qeGCeOiojba2WXSEYKefvIVk9LCA6p+NpVJXYd6M=",
+      "BlazingTrails.Shared.s6nyw0ocrd.wasm": "sha256-5EnQSugFRvIb94VOhQ2iMk/DrncWdhP2b9/8eu+L+sk=",
+      "BlazingTrails.Client.m2hp9duoj1.wasm": "sha256-rv+jTo/bZwJer3a7dEzoMDVrM33dUsGmrsLt7Nqp7n4="
     },
     "pdb": {
-      "BlazingTrails.Shared.eaq0j13zib.pdb": "sha256-6vPf1M+c8U/2he5a45DO5dwfIsirAPvdHGusmw/SlBQ=",
-      "BlazingTrails.ComponentLibrary.ni8w2d5cv0.pdb": "sha256-H9lJ+peBaAk60KXyjLMvRFihJaKC6/9MdTxFZs7nBrg=",
-      "BlazingTrails.Client.84p62425lb.pdb": "sha256-qPaInGJ9XzcAYKQe0ifRUF7dUZ+kz2umyyfGIMyWP7k="
+      "BlazingTrails.Shared.wm4677wqhh.pdb": "sha256-CEAk+UfI/zH2iuHfmxsgcr/pPGp49I2rVDb0jzmcX6o=",
+      "BlazingTrails.ComponentLibrary.pv3c93ai4j.pdb": "sha256-pVOWx7D9Mwl53oNnExR6Ayv4f1iyvTWr2AcOrGqLTDQ=",
+      "BlazingTrails.Client.hbgglfuv3j.pdb": "sha256-Y9gtaZtVhSvMylNJsCiI7/7puWV9DqFtb0uSBqFRy2k="
     }
   },
   "cacheBootResources": true,

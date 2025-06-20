@@ -5,6 +5,7 @@ using BlazingTrails.Shared.Features.ManageTrails.EditTrail;
 using BlazingTrails.Shared.Features.ManageTrails.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BlazingTrails.Api.Features.ManageTrails.EditTrail;
 
@@ -16,7 +17,7 @@ public class EditTrailEndpoint : EndpointBaseAsync.WithRequest<EditTrailRequest>
     {
         _database = database;
     }
-
+    [Authorize]
     [HttpPut(EditTrailRequest.RouteTemplate)]
     public override async Task<ActionResult<bool>> HandleAsync(EditTrailRequest request, CancellationToken cancellationToken = default)
     {
@@ -26,6 +27,19 @@ public class EditTrailEndpoint : EndpointBaseAsync.WithRequest<EditTrailRequest>
         if (trail is null)
         {
             return BadRequest("Trail could not be found.");
+        }
+        var email = 
+            HttpContext.User.Claims.FirstOrDefault(c => c.Type == "email")?.Value
+            ?? HttpContext.User.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress")?.Value
+            ?? throw new Exception("Email not found in user claims");
+
+        var role = HttpContext.User.Claims
+            .FirstOrDefault(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role")
+            ?.Value;
+
+        if (!trail.Owner.Equals(email, StringComparison.OrdinalIgnoreCase) && role != "Administrator")
+        {
+            return Unauthorized();
         }
 
         trail.Name = request.Trail.Name;
