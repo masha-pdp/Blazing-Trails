@@ -55,6 +55,7 @@ else
                     <button @onclick="@(() => HandleTrailSelected(trail))" title="View" class="btn btn-primary">
                         <i class="bi bi-binoculars"></i>
                     </button>
+                    <FavoriteButton Trail="trail" />
                     <AuthorizeView>
                         @if (trail.Owner.Equals(context.User.FindFirst("email")?.Value, StringComparison.OrdinalIgnoreCase)
                              || context.User.Claims.Any(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" && c.Value == "Administrator"))

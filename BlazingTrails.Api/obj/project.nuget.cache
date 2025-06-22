@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7aNt/dk1GuM=",
+  "dgSpecHash": "2iEh3mY9f8E=",
   "success": true,
   "projectFilePath": "/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Api/BlazingTrails.Api.csproj",
   "expectedPackageFiles": [
     "/Users/Masha/.nuget/packages/ardalis.apiendpoints/4.1.0/ardalis.apiendpoints.4.1.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/ardalis.apiendpoints.codeanalyzers/4.0.0/ardalis.apiendpoints.codeanalyzers.4.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/blazored.fluentvalidation/2.2.0/blazored.fluentvalidation.2.2.0.nupkg.sha512",
+    "/Users/Masha/.nuget/packages/blazored.localstorage/4.5.0/blazored.localstorage.4.5.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/buildbundlerminifier2022/2.9.11/buildbundlerminifier2022.2.9.11.nupkg.sha512",
     "/Users/Masha/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/Users/Masha/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

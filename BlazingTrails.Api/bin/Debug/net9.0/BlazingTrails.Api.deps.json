@@ -50,6 +50,17 @@
           }
         }
       },
+      "Blazored.LocalStorage/4.5.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "BuildBundlerMinifier2022/2.9.11": {
         "dependencies": {
           "NUglify": "1.21.9",
@@ -1160,6 +1171,7 @@
           "BlazingTrails.ComponentLibrary": "1.0.0",
           "BlazingTrails.Shared": "1.0.0",
           "Blazored.FluentValidation": "2.2.0",
+          "Blazored.LocalStorage": "4.5.0",
           "BuildBundlerMinifier2022": "2.9.11",
           "MediatR": "12.5.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
@@ -1227,6 +1239,13 @@
       "sha512": "sha512-lBSHW7faCJqwn7KtZt6vqHSiyGvTL5McpS4sQUW3RLu2R5eMmf4oolFeufZfcAB8TV8iI+/PYouz7sn773E8Og==",
       "path": "blazored.fluentvalidation/2.2.0",
       "hashPath": "blazored.fluentvalidation.2.2.0.nupkg.sha512"
+    },
+    "Blazored.LocalStorage/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
+      "path": "blazored.localstorage/4.5.0",
+      "hashPath": "blazored.localstorage.4.5.0.nupkg.sha512"
     },
     "BuildBundlerMinifier2022/2.9.11": {
       "type": "package",

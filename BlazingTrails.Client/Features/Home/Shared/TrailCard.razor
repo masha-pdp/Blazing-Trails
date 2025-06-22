@@ -18,6 +18,7 @@
         <button class="btn btn-primary" title="View" @onclick="@(async () => await OnSelected.InvokeAsync(Trail))">
             <i class="bi bi-binoculars"></i>
         </button>
+        <FavoriteButton Trail="Trail" />
         <AuthorizeView>
             @if (Trail.Owner.Equals(context.User.FindFirst("email")?.Value, StringComparison.OrdinalIgnoreCase)
                  || context.User.Claims.Any(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" && c.Value == "Administrator"))

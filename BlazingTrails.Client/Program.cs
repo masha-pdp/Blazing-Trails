@@ -5,6 +5,7 @@ using MediatR;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Blazored.LocalStorage;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -31,6 +32,7 @@ builder.Services.AddOidcAuthentication(options =>
     options.ProviderOptions.AdditionalProviderParameters.Add("audience", "https://blazingtrailsapi.com");
 }).AddAccountClaimsPrincipalFactory<CustomUserFactory<RemoteUserAccount>>();
 
+builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddScoped<AppState>();
 
 await builder.Build().RunAsync();

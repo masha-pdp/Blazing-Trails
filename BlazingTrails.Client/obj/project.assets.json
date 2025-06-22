@@ -15,6 +15,18 @@
           "lib/net8.0/Blazored.FluentValidation.dll": {}
         }
       },
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "BuildBundlerMinifier2022/2.9.11": {
         "type": "package",
         "dependencies": {
@@ -708,6 +720,18 @@
         },
         "runtime": {
           "lib/net8.0/Blazored.FluentValidation.dll": {}
+        }
+      },
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
         }
       },
       "BuildBundlerMinifier2022/2.9.11": {
@@ -1406,6 +1430,22 @@
         "lib/net6.0/Blazored.FluentValidation.dll",
         "lib/net7.0/Blazored.FluentValidation.dll",
         "lib/net8.0/Blazored.FluentValidation.dll"
+      ]
+    },
+    "Blazored.LocalStorage/4.5.0": {
+      "sha512": "6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
+      "type": "package",
+      "path": "blazored.localstorage/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazored.localstorage.4.5.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll",
+        "lib/net8.0/Blazored.LocalStorage.dll"
       ]
     },
     "BuildBundlerMinifier2022/2.9.11": {
@@ -2599,6 +2639,7 @@
       "BlazingTrails.ComponentLibrary >= 1.0.0",
       "BlazingTrails.Shared >= 1.0.0",
       "Blazored.FluentValidation >= 2.2.0",
+      "Blazored.LocalStorage >= 4.5.0",
       "BuildBundlerMinifier2022 >= 2.9.11",
       "MediatR >= 12.5.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
@@ -2663,6 +2704,10 @@
           "Blazored.FluentValidation": {
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.5.0, )"
           },
           "BuildBundlerMinifier2022": {
             "target": "Package",

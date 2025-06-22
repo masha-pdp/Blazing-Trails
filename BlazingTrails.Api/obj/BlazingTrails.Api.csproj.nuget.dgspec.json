@@ -171,6 +171,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "BuildBundlerMinifier2022": {
               "target": "Package",
               "version": "[2.9.11, )"
