@@ -2,6 +2,8 @@ using BlazingTrails.Client.State;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using BlazingTrails.Shared.Features.ManageTrails.Shared;
+using BlazingTrails.Client.State;
+
 
 namespace BlazingTrails.Client.Features.ManageTrails.Shared;
 
@@ -28,7 +30,7 @@ public class FormStateTracker: ComponentBase
         var trail = (TrailDto)e.FieldIdentifier.Model;
         if (trail.Id == 0)
         {
-            AppState.SaveTrail(trail);
+            AppState.NewTrailState.SaveTrail(trail);
         }
     }
 }
