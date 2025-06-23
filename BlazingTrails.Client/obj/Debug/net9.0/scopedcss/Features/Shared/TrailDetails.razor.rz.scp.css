@@ -1,4 +1,4 @@
-.drawer-mask[b-yqh0a14fj3] {
+.drawer-mask[b-fmq34kxrb3] {
   visibility: hidden;
   position: fixed;
   overflow: hidden;
@@ -12,15 +12,15 @@
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.drawer-wrapper.slide .drawer-mask[b-yqh0a14fj3] {
+.drawer-wrapper.slide .drawer-mask[b-fmq34kxrb3] {
   opacity: 0.5;
   visibility: visible;
 }
-.drawer-wrapper.slide .drawer[b-yqh0a14fj3] {
+.drawer-wrapper.slide .drawer[b-fmq34kxrb3] {
   transform: translateX(0);
 }
 
-.drawer[b-yqh0a14fj3] {
+.drawer[b-fmq34kxrb3] {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -37,17 +37,17 @@
   transition: transform 0.3s ease, width 0.3s ease;
 }
 
-.drawer-content[b-yqh0a14fj3] {
+.drawer-content[b-fmq34kxrb3] {
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 
-.trail-details[b-yqh0a14fj3] {
+.trail-details[b-fmq34kxrb3] {
   padding: 20px;
 }
 
-.drawer-controls[b-yqh0a14fj3] {
+.drawer-controls[b-fmq34kxrb3] {
   padding: 20px;
   background-color: #ffffff;
 }
