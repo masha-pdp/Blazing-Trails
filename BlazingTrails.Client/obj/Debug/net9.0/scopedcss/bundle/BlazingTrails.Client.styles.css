@@ -1,5 +1,17 @@
 @import '_content/BlazingTrails.ComponentLibrary/BlazingTrails.ComponentLibrary.870relwncq.bundle.scp.css';
 
+/* /Features/Home/HomePage.razor.rz.scp.css */
+.no-trails[b-0kvbbeyixf] {
+  text-align: center;
+  margin-top: 100px;
+}
+.no-trails svg[b-0kvbbeyixf] {
+  width: 200px;
+  color: #dee2e6;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=HomePage.razor.css.map */
 /* /Features/Home/Search/SearchFilter.razor.rz.scp.css */
 .filters[b-erkadjksmg] {
   display: flex;
@@ -57,6 +69,18 @@
 }
 
 /*# sourceMappingURL=InputTime.razor.css.map */
+/* /Features/Shared/NoTrails.razor.rz.scp.css */
+.no-trails[b-bcejjxj2e1] {
+  text-align: center;
+  margin-top: 100px;
+}
+.no-trails svg[b-bcejjxj2e1] {
+  width: 200px;
+  color: #dee2e6;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=NoTrails.razor.css.map */
 /* /Features/Shared/TrailDetails.razor.rz.scp.css */
 .drawer-mask[b-fmq34kxrb3] {
   visibility: hidden;

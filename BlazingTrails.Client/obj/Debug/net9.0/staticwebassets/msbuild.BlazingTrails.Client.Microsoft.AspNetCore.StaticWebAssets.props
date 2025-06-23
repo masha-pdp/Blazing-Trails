@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>prh8a11352</Fingerprint>
-      <Integrity>9cmnYeZR7VkHfyYkXj66+Q+e31pPawSFK1wfn8qYD7k=</Integrity>
+      <Fingerprint>q0v0yys5bh</Fingerprint>
+      <Integrity>CsfdTMtbrTgOQ4IAeStZuhTsAXyWnBUZUfXDE/b+LcA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazingTrails.Client.styles.css'))</OriginalItemSpec>
