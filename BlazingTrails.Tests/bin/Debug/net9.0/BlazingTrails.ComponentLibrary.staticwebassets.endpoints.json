@@ -1,0 +1,449 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "BlazingTrails.ComponentLibrary.870relwncq.styles.css",
+      "AssetFile": "BlazingTrails.ComponentLibrary.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001730103806"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d5HbvqMQ7BENLprLg/AMBsF5d9HShArQR4J4zOVG+Ns=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "870relwncq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA="
+        },
+        {
+          "Name": "label",
+          "Value": "BlazingTrails.ComponentLibrary.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "BlazingTrails.ComponentLibrary.870relwncq.styles.css",
+      "AssetFile": "BlazingTrails.ComponentLibrary.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "870relwncq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA="
+        },
+        {
+          "Name": "label",
+          "Value": "BlazingTrails.ComponentLibrary.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "BlazingTrails.ComponentLibrary.870relwncq.styles.css.gz",
+      "AssetFile": "BlazingTrails.ComponentLibrary.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d5HbvqMQ7BENLprLg/AMBsF5d9HShArQR4J4zOVG+Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "870relwncq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d5HbvqMQ7BENLprLg/AMBsF5d9HShArQR4J4zOVG+Ns="
+        },
+        {
+          "Name": "label",
+          "Value": "BlazingTrails.ComponentLibrary.styles.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "BlazingTrails.ComponentLibrary.styles.css",
+      "AssetFile": "BlazingTrails.ComponentLibrary.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001730103806"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d5HbvqMQ7BENLprLg/AMBsF5d9HShArQR4J4zOVG+Ns=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA="
+        }
+      ]
+    },
+    {
+      "Route": "BlazingTrails.ComponentLibrary.styles.css",
+      "AssetFile": "BlazingTrails.ComponentLibrary.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMRIj2oCq4HjtFw7S5DouhuN4CM8ukyIKd2Hp7IT/JA="
+        }
+      ]
+    },
+    {
+      "Route": "BlazingTrails.ComponentLibrary.styles.css.gz",
+      "AssetFile": "BlazingTrails.ComponentLibrary.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d5HbvqMQ7BENLprLg/AMBsF5d9HShArQR4J4zOVG+Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d5HbvqMQ7BENLprLg/AMBsF5d9HShArQR4J4zOVG+Ns="
+        }
+      ]
+    },
+    {
+      "Route": "Map/RouteMap.razor.js",
+      "AssetFile": "Map/RouteMap.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3039"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wQLGkABJ6crtT2/9jvr8srMB0VqJCnkoiIdN4pkAVGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wQLGkABJ6crtT2/9jvr8srMB0VqJCnkoiIdN4pkAVGI="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Map/RouteMap.razor.js",
+      "AssetFile": "Map/RouteMap.razor.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001153402537"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l2LogSNVvllgSTZ/M+Uu8vA222du9dh+jZ2sXEFBAFk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wQLGkABJ6crtT2/9jvr8srMB0VqJCnkoiIdN4pkAVGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wQLGkABJ6crtT2/9jvr8srMB0VqJCnkoiIdN4pkAVGI="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Map/RouteMap.razor.js.gz",
+      "AssetFile": "Map/RouteMap.razor.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l2LogSNVvllgSTZ/M+Uu8vA222du9dh+jZ2sXEFBAFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 13:42:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l2LogSNVvllgSTZ/M+Uu8vA222du9dh+jZ2sXEFBAFk="
+        }
+      ]
+    }
+  ]
+}

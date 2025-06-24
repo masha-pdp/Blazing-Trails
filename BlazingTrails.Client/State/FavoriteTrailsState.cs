@@ -1,4 +1,4 @@
-using BlazingTrails.Client.Features.Home;
+using BlazingTrails.Client.Features.Shared;
 using Blazored.LocalStorage;
 
 

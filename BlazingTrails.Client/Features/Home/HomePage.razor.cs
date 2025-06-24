@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using System.Net.Http.Json;
 using MediatR;
+using BlazingTrails.Client.Features.Shared;
 using BlazingTrails.Shared.Features.Home.Shared;
 namespace BlazingTrails.Client.Features.Home;
 

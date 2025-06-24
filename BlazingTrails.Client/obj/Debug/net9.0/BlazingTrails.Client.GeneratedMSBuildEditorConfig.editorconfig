@@ -68,10 +68,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL1NoYXJlZC9FcnJvckFsZXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/ManageTrails/Shared/FavoriteButton.razor]
-build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL1NoYXJlZC9GYXZvcml0ZUJ1dHRvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/ManageTrails/Shared/FormFieldSet.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL1NoYXJlZC9Gb3JtRmllbGRTZXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/ManageTrails/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvTWFuYWdlVHJhaWxzL19JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Shared/FavoriteButton.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXMvU2hhcmVkL0Zhdm9yaXRlQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Client/Features/Shared/TrailCard.razor]
