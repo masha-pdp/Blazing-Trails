@@ -13,7 +13,7 @@ Blazing Trails — это интерактивное веб-приложение
 
 ## 🔧 Используемые технологии
 
-- **Blazor WebAssembly (.NET 8)**
+- **Blazor WebAssembly (.NET 9)**
 - **C#**
 - **ASP.NET Core**
 - **FluentValidation** (валидация форм)
