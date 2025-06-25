@@ -18,7 +18,7 @@ public class CustomUserFactory<TAccount> : AccountClaimsPrincipalFactory<RemoteU
             var userIdentity = (ClaimsIdentity)initialUser.Identity;
 
             account.AdditionalProperties.TryGetValue(ClaimTypes.Role, out var roleClaimValue);
-
+            
             if (roleClaimValue is not null && roleClaimValue is JsonElement element && element.ValueKind == JsonValueKind.Array)
             {
                 userIdentity.RemoveClaim(userIdentity.FindFirst(ClaimTypes.Role));

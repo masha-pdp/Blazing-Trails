@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q2xpZW50L0ZlYXR1cmVzL1NoYXJlZC9GYXZvcml0ZUJ1dHRvblRlc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Tests/Client/Features/Shared/TrailCardTests.razor]
+build_metadata.AdditionalFiles.TargetPath = Q2xpZW50L0ZlYXR1cmVzL1NoYXJlZC9UcmFpbENhcmRUZXN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Tests/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

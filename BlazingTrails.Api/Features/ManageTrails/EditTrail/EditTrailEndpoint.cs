@@ -33,11 +33,10 @@ public class EditTrailEndpoint : EndpointBaseAsync.WithRequest<EditTrailRequest>
             ?? HttpContext.User.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress")?.Value
             ?? throw new Exception("Email not found in user claims");
 
-        var role = HttpContext.User.Claims
-            .FirstOrDefault(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role")
-            ?.Value;
+        
+        var isAdmin = HttpContext.User.IsInRole("Administrator");
 
-        if (!trail.Owner.Equals(email, StringComparison.OrdinalIgnoreCase) && role != "Administrator")
+        if (!trail.Owner.Equals(email, StringComparison.OrdinalIgnoreCase) && !isAdmin)
         {
             return Unauthorized();
         }
