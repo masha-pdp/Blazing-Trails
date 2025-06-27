@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q2xpZW50L0ZlYXR1cmVzL1NoYXJlZC9UcmFpbENhcmRUZXN0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Tests/Client/Home/HomePageTests.razor]
+build_metadata.AdditionalFiles.TargetPath = Q2xpZW50L0hvbWUvSG9tZVBhZ2VUZXN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Tests/ComponentLibrary/Map/RouteMapTests.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50TGlicmFyeS9NYXAvUm91dGVNYXBUZXN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/Masha/RiderProjects/BlazingTrails/BlazingTrails.Tests/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
